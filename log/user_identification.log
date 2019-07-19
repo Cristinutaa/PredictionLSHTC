@@ -1,4 +1,14 @@
-2019-07-16 16:34:27 INFO     intrusion_detection_synthetic
-2019-07-16 16:34:27 INFO     Out folder: C:\Users\Cristina\PhD Track\Data\CERT\20190716163427
-2019-07-16 16:34:27 INFO     total unique users: 961
-2019-07-16 16:34:27 INFO     fold 1/5
+2019-07-19 09:15:45 INFO     intrusion_detection_synthetic
+2019-07-19 09:15:45 INFO     Out folder: C:\Users\Cristina\PhD Track\Data\CERT\20190719091545
+2019-07-19 09:15:45 INFO     total unique users: 961
+2019-07-19 09:15:45 INFO     fold 1/5
+2019-07-19 09:25:07 INFO     accuracy = 0.91811
+2019-07-19 09:25:07 INFO     fold 2/5
+2019-07-19 09:33:52 INFO     accuracy = 0.92940
+2019-07-19 09:33:52 INFO     fold 3/5
+2019-07-19 09:43:15 INFO     accuracy = 0.92693
+2019-07-19 09:43:15 INFO     fold 4/5
+2019-07-19 09:52:58 INFO     accuracy = 0.92498
+2019-07-19 09:52:58 INFO     fold 5/5
+2019-07-19 10:02:03 INFO     accuracy = 0.92927
+2019-07-19 10:02:03 INFO     mean accuracy = 0.92574 +- 0.00576

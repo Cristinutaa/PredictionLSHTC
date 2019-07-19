@@ -5,9 +5,11 @@ import numpy as np
 import pandas as pd
 from h2o import H2OFrame
 from h2o.estimators import H2ORandomForestEstimator as RandomForest
-from sklearn.metrics import accuracy_score, confusion_matrix
+from sklearn.metrics import accuracy_score
 from code.util import get_config, timestamp, ensure_dir, setup_logger, mean_confidence_interval
-from code.classifiers import EncodedClassifier
+from code.classifiers import create_magic_tree_encoding
+from code.encoding_decoding import create_balanced_tree_encoding, create_encoding_huffman, create_encoding_random, \
+    encode_users, decode_users
 from code.statistics import statistics
 
 
@@ -123,40 +125,63 @@ def user_identification(n_folds, n_users, algorithm):
         logger.info('fold %d/%d' % (fold_idx + 1, n_folds))
 
         fold_users = np.random.choice(unique_users, n_users, replace=False)
-        fold_train_df = train_df.loc[train_df['user'].isin(fold_users)].reset_index()
-        fold_test_df = test_df.loc[test_df['user'].isin(fold_users)].reset_index()
-        y_train = H2OFrame(list(fold_train_df['user']))
-        y_test = H2OFrame(list(fold_test_df['user']))
-        ignored_columns.append("index")
+        fold_train_df = train_df.loc[train_df['user'].isin(fold_users)].reset_index(drop=True)
+        fold_test_df = test_df.loc[test_df['user'].isin(fold_users)].reset_index(drop=True)
+        y_train = fold_test_df['user']
+        y_test = fold_test_df['user']
         columns_to_keep = [i for i in list(fold_train_df.columns) if i not in ignored_columns]
-        fold_train_df = fold_train_df[columns_to_keep].reset_index()
-        fold_test_df = fold_test_df[columns_to_keep].reset_index()
         column_types = get_h2o_column_types(list(columns_to_keep))
+        fold_train_df = fold_test_df[columns_to_keep]
+        fold_test_df = fold_test_df[columns_to_keep]
+        if algorithm == 'huffman':
+            dict_user_code, dict_code_user, encoding_length = create_encoding_huffman(fold_train_df['user'])
+        elif algorithm == 'balanced_tree':
+            dict_user_code, dict_code_user, encoding_length = create_balanced_tree_encoding(fold_train_df['user'])
+        elif algorithm == 'random':
+            dict_user_code, dict_code_user, encoding_length = create_encoding_random(fold_users)
+        elif algorithm == 'magic_tree':
+            cls = RandomForest(seed=h2o_seed, ntrees=cfg.getint('random_forest', 'ntrees'),
+                               max_depth=cfg.getint('random_forest', 'max_depth'),
+                               categorical_encoding=cfg.get('random_forest', 'categorical_encoding'),
+                               nbins_cats=cfg.getint('random_forest', 'nbins_cats'),
+                               histogram_type=cfg.get('random_forest', 'histogram_type'))
+            dict_user_code, dict_code_user, encoding_length = create_magic_tree_encoding(fold_train_df, y_train, cls)
+
+        encoded_train = encode_users(y_train, dict_user_code, encoding_length)
+        fold_train_df = pd.concat([fold_train_df, encoded_train], axis=1)
+        class_columns = encoded_train.columns
         fold_train_frame = H2OFrame(fold_train_df, column_types=column_types)
         fold_test_frame = H2OFrame(fold_test_df, column_types=column_types)
 
-        rf = RandomForest(seed=h2o_seed, ntrees=cfg.getint('random_forest', 'ntrees'),
-                          max_depth=cfg.getint('random_forest', 'max_depth'),
-                          categorical_encoding=cfg.get('random_forest', 'categorical_encoding'),
-                          nbins_cats=cfg.getint('random_forest', 'nbins_cats'),
-                          histogram_type=cfg.get('random_forest', 'histogram_type'))
-        cls = EncodedClassifier(rf, encoding_type="random")
-        cls.fit(fold_train_frame, y_train)
-        y_pred = cls.predict(fold_test_frame)
-        acc = accuracy_score(y_test, y_pred)
+        results = pd.DataFrame(index=range(len(fold_test_frame)))
+        for i in encoded_train.columns:
+            # build shared RF user identification model
+            fold_train_frame[i] = fold_train_frame[i].asfactor()
+            rf = RandomForest(seed=h2o_seed, ntrees=cfg.getint('random_forest', 'ntrees'),
+                              max_depth=cfg.getint('random_forest', 'max_depth'),
+                              categorical_encoding=cfg.get('random_forest', 'categorical_encoding'),
+                              nbins_cats=cfg.getint('random_forest', 'nbins_cats'),
+                              histogram_type=cfg.get('random_forest', 'histogram_type'))
+            rf.train(ignored_columns=list(class_columns), y=i, training_frame=fold_train_frame)
+            predictions = rf.predict(fold_test_frame)
+
+            results[i] = predictions['predict'].as_data_frame().values
+        y_true = y_test.values
+        y_pred = decode_users(results, dict_code_user)
+        acc = accuracy_score(y_true, y_pred)
         logger.info('accuracy = %.5f' % acc)
 
         accuracies.append(acc)
 
-    statistics(y_train=fold_train_df['user'], y_pred=y_pred, y_test=y_test, show_hist=True,
-               file_name="class_repartition")
+    # statistics(y_train=y_train, y_pred=y_pred, y_test=y_true, show_hist=True,
+    #           file_name="class_repartition")
     mean_acc = np.mean(np.array(accuracies))
     lower, upper = mean_confidence_interval(np.array(accuracies))
     logger.info('mean accuracy = %.5f +- %.5f' % (mean_acc, 0.5 * (upper - lower)))
 
 
 def main():
-    user_identification(5, 961, 'random')
+    user_identification(5, 961, 'magic_tree')
     return 0
 
 
