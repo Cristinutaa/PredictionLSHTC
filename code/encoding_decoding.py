@@ -16,7 +16,9 @@ def create_encoding_random(unique_classes):
              a dictionary having binary codes as key and class as value
              the length of the encoding strings
     """
-    encoding_length = int(math.log(len(unique_classes), 2)) + 1
+    encoding_length = int(math.log(len(unique_classes), 2))
+    if 2**encoding_length != len(unique_classes):
+        encoding_length += 1
     dict_class_code = {}
     dict_code_class = {}
     for user in unique_classes:
@@ -29,8 +31,8 @@ def create_encoding_random(unique_classes):
     return dict_class_code, dict_code_class, encoding_length
 
 
-# Basic Node Structure
-class Node(ComparableMixin):
+# Basic BinaryNode Structure
+class BinaryNode(ComparableMixin):
     def __init__(self, left_node=None, right_node=None, level=0):
         self.right_node = right_node
         self.left_node = left_node
@@ -47,9 +49,9 @@ class Node(ComparableMixin):
         return self.value
 
 
-class HuffmanNode(Node):
+class HuffmanBinaryNode(BinaryNode):
     def __init__(self, value, left_node=None, right_node=None, level=0):
-        Node.__init__(self, left_node, right_node, level)
+        BinaryNode.__init__(self, left_node, right_node, level)
         self.value = value
 
 
@@ -101,20 +103,20 @@ def build_huffman_tree(list_of_values):
     """
     p = queue.PriorityQueue()
     for value in list_of_values:
-        p.put((value, HuffmanNode(value)))
+        p.put((value, HuffmanBinaryNode(value)))
     while p.qsize() > 1:
         left_value, left_node, right_value, right_node = *p.get(), *p.get()
         left_level = left_node.level
         right_level = right_node.level
         root_value = left_value + right_value
         root_level = max(left_level, right_level) + 1
-        p.put((root_value, HuffmanNode(root_value, left_node, right_node, root_level)))
+        p.put((root_value, HuffmanBinaryNode(root_value, left_node, right_node, root_level)))
 
     root = p.get()
     if type(root) is tuple:
         return root[1]
     else:
-        return HuffmanNode(root)
+        return HuffmanBinaryNode(root)
 
 
 def create_encoding_huffman(users):

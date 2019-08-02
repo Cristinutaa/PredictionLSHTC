@@ -57,7 +57,7 @@ def get_class_accuracy(y_pred, y_test):
     return accuracies
 
 
-def statistics(y_train=[], y_pred=[], y_test=[], show_hist=True, file_name="", stats=VALID_STATS):
+def statistics(y_train=[], y_pred=[], y_test=[], show_hist=True, file_name="", stats=VALID_STATS, logger = None):
     """
     Calculates the statistics for the data
     :param y_train: the class list of the training set (used for data statistics)
@@ -69,6 +69,9 @@ def statistics(y_train=[], y_pred=[], y_test=[], show_hist=True, file_name="", s
     """
     if not stats.issubset(VALID_STATS):
         raise ValueError("The stats set contains unknown statistics")
+    if logger:
+        logger.info("Statistics on data")
+        logger.info("-----------")
     print("Statistics on data")
     print("-----------")
     if show_hist:
@@ -82,21 +85,33 @@ def statistics(y_train=[], y_pred=[], y_test=[], show_hist=True, file_name="", s
     accuracies = get_class_accuracy(y_pred, y_test)
 
     if "micro_acc" in stats:
+        if logger:
+            logger.info("Accuracy: %2.2f %%" % micro_accuracy)
         print("Accuracy: %2.2f %%" % micro_accuracy)
 
     if "macro_acc" in stats:
+        if logger:
+            logger.info("Average accuracy per class %2.2f %%" % (accuracies.mean() * 100))
         print("Average accuracy per class %2.2f %%" % (accuracies.mean() * 100))
 
     # print("Standard deviation of accuracy per class %2.2f %%" % (np.std(accuracies) * 100))
 
     if "acc_inf_micro" in stats:
+        if logger:
+            logger.info("Number of classes with accuracy < to %2.2f %% - %d" % (
+                        micro_accuracy, (100 * accuracies < micro_accuracy).sum()))
         print("Number of classes with accuracy < to %2.2f %% - %d" % (
             micro_accuracy, (100 * accuracies < micro_accuracy).sum()))
 
     if "acc_0_count" in stats:
+        if logger:
+            logger.info(("Number of classes with accuracy 0 - %d" % (100 * accuracies == 0).sum()))
         print("Number of classes with accuracy 0 - %d" % (100 * accuracies == 0).sum())
 
     if "acc_sup_micro" in stats:
+        if logger:
+            logger.info("Number of classes with accuracy > to %2.2f %% - %d" % (
+                        micro_accuracy, (100 * accuracies > micro_accuracy).sum()))
         print("Number of classes with accuracy > to %2.2f %% - %d" % (
             micro_accuracy, (100 * accuracies > micro_accuracy).sum()))
     if "acc_distribution":

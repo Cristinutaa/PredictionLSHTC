@@ -1,14 +1,119 @@
-2019-07-19 09:15:45 INFO     intrusion_detection_synthetic
-2019-07-19 09:15:45 INFO     Out folder: C:\Users\Cristina\PhD Track\Data\CERT\20190719091545
-2019-07-19 09:15:45 INFO     total unique users: 961
-2019-07-19 09:15:45 INFO     fold 1/5
-2019-07-19 09:25:07 INFO     accuracy = 0.91811
-2019-07-19 09:25:07 INFO     fold 2/5
-2019-07-19 09:33:52 INFO     accuracy = 0.92940
-2019-07-19 09:33:52 INFO     fold 3/5
-2019-07-19 09:43:15 INFO     accuracy = 0.92693
-2019-07-19 09:43:15 INFO     fold 4/5
-2019-07-19 09:52:58 INFO     accuracy = 0.92498
-2019-07-19 09:52:58 INFO     fold 5/5
-2019-07-19 10:02:03 INFO     accuracy = 0.92927
-2019-07-19 10:02:03 INFO     mean accuracy = 0.92574 +- 0.00576
+2019-07-31 13:55:08 INFO     intrusion_detection_synthetic
+2019-07-31 13:55:08 INFO     Out folder: C:\Users\Cristina\PhD Track\Data\CERT\20190731135508
+2019-07-31 13:55:09 INFO     total unique users: 961
+2019-07-31 13:55:09 INFO     number_of_users = [2, 12, 22]
+2019-07-31 13:55:09 INFO     DATA FOR 2 CLASSES
+2019-07-31 13:55:09 INFO     Meta-Binary Tree Classifier
+2019-07-31 13:55:14 INFO     Average Micro-Accuracy 1.0000
+2019-07-31 13:55:14 INFO     Average Macro-Accuracy 1.0000
+2019-07-31 13:55:14 INFO     Average train time: 0 min 0 s
+2019-07-31 13:55:14 INFO     Average prediction time: 0 min 0 s
+2019-07-31 13:55:14 INFO     *************
+2019-07-31 13:55:14 INFO     Classification using encoding random
+2019-07-31 13:55:16 INFO     Average Micro-Accuracy 1.0000
+2019-07-31 13:55:16 INFO     Average Macro-Accuracy 1.0000
+2019-07-31 13:55:16 INFO     Average train time: 0 min 0 s
+2019-07-31 13:55:16 INFO     Average prediction time: 0 min 0 s
+2019-07-31 13:55:16 INFO     *************
+2019-07-31 13:55:16 INFO     Classification using encoding huffman
+2019-07-31 13:55:21 INFO     Average Micro-Accuracy 1.0000
+2019-07-31 13:55:21 INFO     Average Macro-Accuracy 1.0000
+2019-07-31 13:55:21 INFO     Average train time: 0 min 0 s
+2019-07-31 13:55:21 INFO     Average prediction time: 0 min 0 s
+2019-07-31 13:55:21 INFO     *************
+2019-07-31 13:55:21 INFO     Classification using encoding balanced-tree
+2019-07-31 13:55:23 INFO     Average Micro-Accuracy 0.9867
+2019-07-31 13:55:23 INFO     Average Macro-Accuracy 0.9875
+2019-07-31 13:55:23 INFO     Average train time: 0 min 0 s
+2019-07-31 13:55:23 INFO     Average prediction time: 0 min 0 s
+2019-07-31 13:55:23 INFO     *************
+2019-07-31 13:55:23 INFO     Classification using encoding meta-binary-tree-encoding
+2019-07-31 13:55:27 INFO     Average Micro-Accuracy 1.0000
+2019-07-31 13:55:27 INFO     Average Macro-Accuracy 1.0000
+2019-07-31 13:55:27 INFO     Average train time: 0 min 0 s
+2019-07-31 13:55:27 INFO     Average prediction time: 0 min 0 s
+2019-07-31 13:55:27 INFO     *************
+2019-07-31 13:55:27 INFO     Standard Classifier
+2019-07-31 13:55:29 INFO     Average Micro-Accuracy 0.9867
+2019-07-31 13:55:29 INFO     Average Macro-Accuracy 0.9875
+2019-07-31 13:55:29 INFO     Average train time: 0 min 0 s
+2019-07-31 13:55:29 INFO     Average prediction time: 0 min 0 s
+2019-07-31 13:55:29 INFO     *************
+2019-07-31 13:55:29 INFO     DATA FOR 12 CLASSES
+2019-07-31 13:55:29 INFO     Meta-Binary Tree Classifier
+2019-07-31 13:55:54 INFO     Average Micro-Accuracy 0.9533
+2019-07-31 13:55:54 INFO     Average Macro-Accuracy 0.9650
+2019-07-31 13:55:54 INFO     Average train time: 0 min 4 s
+2019-07-31 13:55:54 INFO     Average prediction time: 0 min 0 s
+2019-07-31 13:55:54 INFO     *************
+2019-07-31 13:55:54 INFO     Classification using encoding random
+2019-07-31 13:56:01 INFO     Average Micro-Accuracy 0.9763
+2019-07-31 13:56:01 INFO     Average Macro-Accuracy 0.9816
+2019-07-31 13:56:01 INFO     Average train time: 0 min 1 s
+2019-07-31 13:56:01 INFO     Average prediction time: 0 min 0 s
+2019-07-31 13:56:01 INFO     *************
+2019-07-31 13:56:01 INFO     Classification using encoding huffman
+2019-07-31 13:56:09 INFO     Average Micro-Accuracy 0.9679
+2019-07-31 13:56:09 INFO     Average Macro-Accuracy 0.9677
+2019-07-31 13:56:09 INFO     Average train time: 0 min 1 s
+2019-07-31 13:56:09 INFO     Average prediction time: 0 min 0 s
+2019-07-31 13:56:09 INFO     *************
+2019-07-31 13:56:09 INFO     Classification using encoding balanced-tree
+2019-07-31 13:56:16 INFO     Average Micro-Accuracy 0.9051
+2019-07-31 13:56:16 INFO     Average Macro-Accuracy 0.9310
+2019-07-31 13:56:16 INFO     Average train time: 0 min 1 s
+2019-07-31 13:56:16 INFO     Average prediction time: 0 min 0 s
+2019-07-31 13:56:16 INFO     *************
+2019-07-31 13:56:16 INFO     Classification using encoding meta-binary-tree-encoding
+2019-07-31 13:56:47 INFO     Average Micro-Accuracy 0.9536
+2019-07-31 13:56:47 INFO     Average Macro-Accuracy 0.9614
+2019-07-31 13:56:47 INFO     Average train time: 0 min 5 s
+2019-07-31 13:56:47 INFO     Average prediction time: 0 min 0 s
+2019-07-31 13:56:47 INFO     *************
+2019-07-31 13:56:47 INFO     Standard Classifier
+2019-07-31 13:56:50 INFO     Average Micro-Accuracy 0.9800
+2019-07-31 13:56:50 INFO     Average Macro-Accuracy 0.9840
+2019-07-31 13:56:50 INFO     Average train time: 0 min 0 s
+2019-07-31 13:56:50 INFO     Average prediction time: 0 min 0 s
+2019-07-31 13:56:50 INFO     *************
+2019-07-31 13:56:50 INFO     DATA FOR 22 CLASSES
+2019-07-31 13:56:50 INFO     Meta-Binary Tree Classifier
+2019-07-31 13:57:40 INFO     Average Micro-Accuracy 0.9645
+2019-07-31 13:57:40 INFO     Average Macro-Accuracy 0.9669
+2019-07-31 13:57:40 INFO     Average train time: 0 min 8 s
+2019-07-31 13:57:40 INFO     Average prediction time: 0 min 1 s
+2019-07-31 13:57:40 INFO     *************
+2019-07-31 13:57:40 INFO     Classification using encoding random
+2019-07-31 13:57:50 INFO     Average Micro-Accuracy 0.9493
+2019-07-31 13:57:50 INFO     Average Macro-Accuracy 0.9575
+2019-07-31 13:57:50 INFO     Average train time: 0 min 1 s
+2019-07-31 13:57:50 INFO     Average prediction time: 0 min 0 s
+2019-07-31 13:57:50 INFO     *************
+2019-07-31 13:57:50 INFO     Classification using encoding huffman
+2019-07-31 13:57:59 INFO     Average Micro-Accuracy 0.9325
+2019-07-31 13:57:59 INFO     Average Macro-Accuracy 0.9545
+2019-07-31 13:57:59 INFO     Average train time: 0 min 1 s
+2019-07-31 13:57:59 INFO     Average prediction time: 0 min 0 s
+2019-07-31 13:57:59 INFO     *************
+2019-07-31 13:57:59 INFO     Classification using encoding balanced-tree
+2019-07-31 13:58:09 INFO     Average Micro-Accuracy 0.9601
+2019-07-31 13:58:09 INFO     Average Macro-Accuracy 0.9645
+2019-07-31 13:58:09 INFO     Average train time: 0 min 1 s
+2019-07-31 13:58:09 INFO     Average prediction time: 0 min 0 s
+2019-07-31 13:58:09 INFO     *************
+2019-07-31 13:58:09 INFO     Classification using encoding meta-binary-tree-encoding
+2019-07-31 13:58:56 INFO     Average Micro-Accuracy 0.9067
+2019-07-31 13:58:56 INFO     Average Macro-Accuracy 0.9493
+2019-07-31 13:58:56 INFO     Average train time: 0 min 9 s
+2019-07-31 13:58:56 INFO     Average prediction time: 0 min 0 s
+2019-07-31 13:58:56 INFO     *************
+2019-07-31 13:58:56 INFO     Standard Classifier
+2019-07-31 13:58:59 INFO     Average Micro-Accuracy 0.9557
+2019-07-31 13:58:59 INFO     Average Macro-Accuracy 0.9712
+2019-07-31 13:58:59 INFO     Average train time: 0 min 0 s
+2019-07-31 13:58:59 INFO     Average prediction time: 0 min 0 s
+2019-07-31 13:58:59 INFO     *************
+2019-07-31 13:58:59 INFO     micro_accuracies = {'meta_binary_tree_classifier': [1.0, 0.953281696799882, 0.9645391674149943], 'random': [1.0, 0.9763175407670822, 0.9492636266273788], 'huffman': [1.0, 0.9678681914703098, 0.9324785112378635], 'balanced-tree': [0.9866666666666667, 0.9050526279029807, 0.9601236850335111], 'meta-binary-tree-encoding': [1.0, 0.9536054223068193, 0.9066660859044431], 'standard-classifier': [0.9866666666666667, 0.9800106951871659, 0.955681003630507]}
+2019-07-31 13:58:59 INFO     macro_accuracies = {'meta_binary_tree_classifier': [1.0, 0.9649861712361713, 0.9669332939787486], 'random': [1.0, 0.9815533424908425, 0.9575467389753104], 'huffman': [1.0, 0.9677314814814814, 0.9545323215396528], 'balanced-tree': [0.9875, 0.9310417360417361, 0.9644827394827395], 'meta-binary-tree-encoding': [1.0, 0.9613819976319977, 0.9492586693609422], 'standard-classifier': [0.9875, 0.9839889277389278, 0.9711845309050279]}
+2019-07-31 13:58:59 INFO     training_time = {'meta_binary_tree_classifier': [0.8437077522277832, 4.242578554153442, 8.468188428878785], 'random': [0.30712313652038575, 1.322083330154419, 1.8049789428710938], 'huffman': [0.4221181392669678, 1.3337464809417725, 1.7202570915222168], 'balanced-tree': [0.317289400100708, 1.317448377609253, 1.7478606224060058], 'meta-binary-tree-encoding': [0.6656882286071777, 5.712661266326904, 9.111523914337159], 'standard-classifier': [0.3005209445953369, 0.466353702545166, 0.2901763916015625]}
+2019-07-31 13:58:59 INFO     prediction_time = {'meta_binary_tree_classifier': [0.1342318534851074, 0.7793072700500489, 1.5484545230865479], 'random': [0.11579756736755371, 0.15913448333740235, 0.20086846351623536], 'huffman': [0.6319188117980957, 0.1743703842163086, 0.18227295875549315], 'balanced-tree': [0.06841635704040527, 0.15044693946838378, 0.2359057903289795], 'meta-binary-tree-encoding': [0.07320060729980468, 0.3248715877532959, 0.2324758529663086], 'standard-classifier': [0.06999392509460449, 0.11369647979736328, 0.2666805267333984]}

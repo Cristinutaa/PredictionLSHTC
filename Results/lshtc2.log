@@ -1,0 +1,397 @@
+2019-08-01 08:46:09 INFO     number_of_users = [10, 110, 210, 310, 410, 510, 610, 710, 810, 910, 1010, 1110, 1210, 1310, 1410, 1510, 1610, 1710, 1810, 1910, 2010, 2110, 2210, 2310, 2410, 2510, 2610, 2710, 2810, 2910]
+2019-08-01 08:46:09 INFO     DATA FOR 10 CLASSES
+2019-08-01 08:46:09 INFO     Meta-Binary Tree Classifier
+2019-08-01 08:46:26 INFO     Average Micro-Accuracy 1.0000
+2019-08-01 08:46:26 INFO     Average Macro-Accuracy 1.0000
+2019-08-01 08:46:26 INFO     Average train time: 0 min 0 s
+2019-08-01 08:46:26 INFO     Average prediction time: 0 min 0 s
+2019-08-01 08:46:26 INFO     *************
+2019-08-01 08:46:26 INFO     Classification using encoding random
+2019-08-01 08:46:44 INFO     Average Micro-Accuracy 0.9782
+2019-08-01 08:46:44 INFO     Average Macro-Accuracy 0.9578
+2019-08-01 08:46:44 INFO     Average train time: 0 min 0 s
+2019-08-01 08:46:44 INFO     Average prediction time: 0 min 0 s
+2019-08-01 08:46:44 INFO     *************
+2019-08-01 08:46:44 INFO     Classification using encoding huffman
+2019-08-01 08:47:03 INFO     Average Micro-Accuracy 1.0000
+2019-08-01 08:47:03 INFO     Average Macro-Accuracy 1.0000
+2019-08-01 08:47:03 INFO     Average train time: 0 min 0 s
+2019-08-01 08:47:03 INFO     Average prediction time: 0 min 0 s
+2019-08-01 08:47:03 INFO     *************
+2019-08-01 08:47:03 INFO     Classification using encoding balanced-tree
+2019-08-01 08:47:21 INFO     Average Micro-Accuracy 0.9079
+2019-08-01 08:47:21 INFO     Average Macro-Accuracy 0.8400
+2019-08-01 08:47:21 INFO     Average train time: 0 min 0 s
+2019-08-01 08:47:21 INFO     Average prediction time: 0 min 0 s
+2019-08-01 08:47:21 INFO     *************
+2019-08-01 08:47:21 INFO     Classification using encoding meta-binary-tree-encoding
+2019-08-01 08:47:38 INFO     Average Micro-Accuracy 0.9795
+2019-08-01 08:47:38 INFO     Average Macro-Accuracy 0.9800
+2019-08-01 08:47:38 INFO     Average train time: 0 min 0 s
+2019-08-01 08:47:38 INFO     Average prediction time: 0 min 0 s
+2019-08-01 08:47:38 INFO     *************
+2019-08-01 08:47:38 INFO     Standard Classifier
+2019-08-01 08:47:55 INFO     Average Micro-Accuracy 0.9938
+2019-08-01 08:47:55 INFO     Average Macro-Accuracy 0.9800
+2019-08-01 08:47:55 INFO     Average train time: 0 min 0 s
+2019-08-01 08:47:55 INFO     Average prediction time: 0 min 0 s
+2019-08-01 08:47:55 INFO     *************
+2019-08-01 08:47:55 INFO     DATA FOR 110 CLASSES
+2019-08-01 08:47:55 INFO     Meta-Binary Tree Classifier
+2019-08-01 08:48:26 INFO     Average Micro-Accuracy 0.9225
+2019-08-01 08:48:26 INFO     Average Macro-Accuracy 0.8345
+2019-08-01 08:48:26 INFO     Average train time: 0 min 1 s
+2019-08-01 08:48:26 INFO     Average prediction time: 0 min 0 s
+2019-08-01 08:48:26 INFO     *************
+2019-08-01 08:48:26 INFO     Classification using encoding random
+2019-08-01 08:48:59 INFO     Average Micro-Accuracy 0.8826
+2019-08-01 08:48:59 INFO     Average Macro-Accuracy 0.7648
+2019-08-01 08:48:59 INFO     Average train time: 0 min 2 s
+2019-08-01 08:48:59 INFO     Average prediction time: 0 min 0 s
+2019-08-01 08:48:59 INFO     *************
+2019-08-01 08:48:59 INFO     Classification using encoding huffman
+2019-08-01 08:49:36 INFO     Average Micro-Accuracy 0.8516
+2019-08-01 08:49:36 INFO     Average Macro-Accuracy 0.7297
+2019-08-01 08:49:36 INFO     Average train time: 0 min 2 s
+2019-08-01 08:49:36 INFO     Average prediction time: 0 min 0 s
+2019-08-01 08:49:36 INFO     *************
+2019-08-01 08:49:36 INFO     Classification using encoding balanced-tree
+2019-08-01 08:50:09 INFO     Average Micro-Accuracy 0.8596
+2019-08-01 08:50:09 INFO     Average Macro-Accuracy 0.7455
+2019-08-01 08:50:09 INFO     Average train time: 0 min 2 s
+2019-08-01 08:50:09 INFO     Average prediction time: 0 min 0 s
+2019-08-01 08:50:09 INFO     *************
+2019-08-01 08:50:09 INFO     Classification using encoding meta-binary-tree-encoding
+2019-08-01 08:50:52 INFO     Average Micro-Accuracy 0.8736
+2019-08-01 08:50:52 INFO     Average Macro-Accuracy 0.7673
+2019-08-01 08:50:52 INFO     Average train time: 0 min 4 s
+2019-08-01 08:50:52 INFO     Average prediction time: 0 min 0 s
+2019-08-01 08:50:52 INFO     *************
+2019-08-01 08:50:52 INFO     Standard Classifier
+2019-08-01 08:51:26 INFO     Average Micro-Accuracy 0.9510
+2019-08-01 08:51:26 INFO     Average Macro-Accuracy 0.9539
+2019-08-01 08:51:26 INFO     Average train time: 0 min 2 s
+2019-08-01 08:51:26 INFO     Average prediction time: 0 min 0 s
+2019-08-01 08:51:26 INFO     *************
+2019-08-01 08:51:26 INFO     DATA FOR 210 CLASSES
+2019-08-01 08:51:26 INFO     Meta-Binary Tree Classifier
+2019-08-01 08:52:32 INFO     Average Micro-Accuracy 0.8628
+2019-08-01 08:52:32 INFO     Average Macro-Accuracy 0.7147
+2019-08-01 08:52:32 INFO     Average train time: 0 min 7 s
+2019-08-01 08:52:32 INFO     Average prediction time: 0 min 1 s
+2019-08-01 08:52:32 INFO     *************
+2019-08-01 08:52:32 INFO     Classification using encoding random
+2019-08-01 08:54:02 INFO     Average Micro-Accuracy 0.7969
+2019-08-01 08:54:02 INFO     Average Macro-Accuracy 0.5848
+2019-08-01 08:54:02 INFO     Average train time: 0 min 10 s
+2019-08-01 08:54:02 INFO     Average prediction time: 0 min 3 s
+2019-08-01 08:54:02 INFO     *************
+2019-08-01 08:54:02 INFO     Classification using encoding huffman
+2019-08-01 08:56:02 INFO     Average Micro-Accuracy 0.7716
+2019-08-01 08:56:02 INFO     Average Macro-Accuracy 0.5727
+2019-08-01 08:56:02 INFO     Average train time: 0 min 14 s
+2019-08-01 08:56:02 INFO     Average prediction time: 0 min 5 s
+2019-08-01 08:56:02 INFO     *************
+2019-08-01 08:56:02 INFO     Classification using encoding balanced-tree
+2019-08-01 08:57:37 INFO     Average Micro-Accuracy 0.7527
+2019-08-01 08:57:37 INFO     Average Macro-Accuracy 0.5587
+2019-08-01 08:57:37 INFO     Average train time: 0 min 11 s
+2019-08-01 08:57:37 INFO     Average prediction time: 0 min 3 s
+2019-08-01 08:57:37 INFO     *************
+2019-08-01 08:57:37 INFO     Classification using encoding meta-binary-tree-encoding
+2019-08-01 08:59:22 INFO     Average Micro-Accuracy 0.7925
+2019-08-01 08:59:22 INFO     Average Macro-Accuracy 0.6218
+2019-08-01 08:59:22 INFO     Average train time: 0 min 14 s
+2019-08-01 08:59:22 INFO     Average prediction time: 0 min 3 s
+2019-08-01 08:59:22 INFO     *************
+2019-08-01 08:59:22 INFO     Standard Classifier
+2019-08-01 09:00:14 INFO     Average Micro-Accuracy 0.9224
+2019-08-01 09:00:14 INFO     Average Macro-Accuracy 0.8927
+2019-08-01 09:00:14 INFO     Average train time: 0 min 4 s
+2019-08-01 09:00:14 INFO     Average prediction time: 0 min 1 s
+2019-08-01 09:00:14 INFO     *************
+2019-08-01 09:00:14 INFO     DATA FOR 310 CLASSES
+2019-08-01 09:00:14 INFO     Meta-Binary Tree Classifier
+2019-08-01 09:02:03 INFO     Average Micro-Accuracy 0.8005
+2019-08-01 09:02:03 INFO     Average Macro-Accuracy 0.6078
+2019-08-01 09:02:03 INFO     Average train time: 0 min 13 s
+2019-08-01 09:02:03 INFO     Average prediction time: 0 min 3 s
+2019-08-01 09:02:03 INFO     *************
+2019-08-01 09:02:03 INFO     Classification using encoding random
+2019-08-01 09:05:01 INFO     Average Micro-Accuracy 0.7100
+2019-08-01 09:05:01 INFO     Average Macro-Accuracy 0.4826
+2019-08-01 09:05:01 INFO     Average train time: 0 min 23 s
+2019-08-01 09:05:01 INFO     Average prediction time: 0 min 8 s
+2019-08-01 09:05:01 INFO     *************
+2019-08-01 09:05:01 INFO     Classification using encoding huffman
+2019-08-01 09:09:23 INFO     Average Micro-Accuracy 0.7130
+2019-08-01 09:09:23 INFO     Average Macro-Accuracy 0.4543
+2019-08-01 09:09:23 INFO     Average train time: 0 min 36 s
+2019-08-01 09:09:23 INFO     Average prediction time: 0 min 12 s
+2019-08-01 09:09:23 INFO     *************
+2019-08-01 09:09:23 INFO     Classification using encoding balanced-tree
+2019-08-01 09:12:52 INFO     Average Micro-Accuracy 0.7003
+2019-08-01 09:12:52 INFO     Average Macro-Accuracy 0.4578
+2019-08-01 09:12:52 INFO     Average train time: 0 min 28 s
+2019-08-01 09:12:52 INFO     Average prediction time: 0 min 9 s
+2019-08-01 09:12:52 INFO     *************
+2019-08-01 09:12:52 INFO     Classification using encoding meta-binary-tree-encoding
+2019-08-01 09:17:03 INFO     Average Micro-Accuracy 0.7194
+2019-08-01 09:17:03 INFO     Average Macro-Accuracy 0.4897
+2019-08-01 09:17:03 INFO     Average train time: 0 min 37 s
+2019-08-01 09:17:03 INFO     Average prediction time: 0 min 8 s
+2019-08-01 09:17:03 INFO     *************
+2019-08-01 09:17:03 INFO     Standard Classifier
+2019-08-01 09:18:49 INFO     Average Micro-Accuracy 0.8473
+2019-08-01 09:18:49 INFO     Average Macro-Accuracy 0.8512
+2019-08-01 09:18:49 INFO     Average train time: 0 min 13 s
+2019-08-01 09:18:49 INFO     Average prediction time: 0 min 3 s
+2019-08-01 09:18:49 INFO     *************
+2019-08-01 09:18:49 INFO     DATA FOR 410 CLASSES
+2019-08-01 09:18:49 INFO     Meta-Binary Tree Classifier
+2019-08-01 09:21:16 INFO     Average Micro-Accuracy 0.7458
+2019-08-01 09:21:16 INFO     Average Macro-Accuracy 0.5398
+2019-08-01 09:21:16 INFO     Average train time: 0 min 20 s
+2019-08-01 09:21:16 INFO     Average prediction time: 0 min 5 s
+2019-08-01 09:21:16 INFO     *************
+2019-08-01 09:21:16 INFO     Classification using encoding random
+2019-08-01 09:27:21 INFO     Average Micro-Accuracy 0.6642
+2019-08-01 09:27:21 INFO     Average Macro-Accuracy 0.4081
+2019-08-01 09:27:21 INFO     Average train time: 0 min 50 s
+2019-08-01 09:27:21 INFO     Average prediction time: 0 min 17 s
+2019-08-01 09:27:21 INFO     *************
+2019-08-01 09:27:21 INFO     Classification using encoding huffman
+2019-08-01 09:35:04 INFO     Average Micro-Accuracy 0.6505
+2019-08-01 09:35:04 INFO     Average Macro-Accuracy 0.3596
+2019-08-01 09:35:04 INFO     Average train time: 1 min 5 s
+2019-08-01 09:35:04 INFO     Average prediction time: 0 min 22 s
+2019-08-01 09:35:04 INFO     *************
+2019-08-01 09:35:04 INFO     Classification using encoding balanced-tree
+2019-08-01 09:40:53 INFO     Average Micro-Accuracy 0.6048
+2019-08-01 09:40:53 INFO     Average Macro-Accuracy 0.3677
+2019-08-01 09:40:53 INFO     Average train time: 0 min 48 s
+2019-08-01 09:40:53 INFO     Average prediction time: 0 min 16 s
+2019-08-01 09:40:53 INFO     *************
+2019-08-01 09:40:53 INFO     Classification using encoding meta-binary-tree-encoding
+2019-08-01 09:48:14 INFO     Average Micro-Accuracy 0.6759
+2019-08-01 09:48:14 INFO     Average Macro-Accuracy 0.4063
+2019-08-01 09:48:14 INFO     Average train time: 1 min 8 s
+2019-08-01 09:48:14 INFO     Average prediction time: 0 min 15 s
+2019-08-01 09:48:14 INFO     *************
+2019-08-01 09:48:14 INFO     Standard Classifier
+2019-08-01 09:56:13 INFO     Average Micro-Accuracy 0.8150
+2019-08-01 09:56:13 INFO     Average Macro-Accuracy 0.8105
+2019-08-01 09:56:13 INFO     Average train time: 1 min 22 s
+2019-08-01 09:56:13 INFO     Average prediction time: 0 min 9 s
+2019-08-01 09:56:13 INFO     *************
+2019-08-01 09:56:13 INFO     DATA FOR 510 CLASSES
+2019-08-01 09:56:13 INFO     Meta-Binary Tree Classifier
+2019-08-01 10:00:24 INFO     Average Micro-Accuracy 0.7224
+2019-08-01 10:00:24 INFO     Average Macro-Accuracy 0.4851
+2019-08-01 10:00:24 INFO     Average train time: 0 min 36 s
+2019-08-01 10:00:24 INFO     Average prediction time: 0 min 9 s
+2019-08-01 10:00:24 INFO     *************
+2019-08-01 10:00:24 INFO     Classification using encoding random
+2019-08-01 10:10:00 INFO     Average Micro-Accuracy 0.6209
+2019-08-01 10:10:00 INFO     Average Macro-Accuracy 0.3378
+2019-08-01 10:10:00 INFO     Average train time: 1 min 22 s
+2019-08-01 10:10:00 INFO     Average prediction time: 0 min 28 s
+2019-08-01 10:10:00 INFO     *************
+2019-08-01 10:10:00 INFO     Classification using encoding huffman
+2019-08-01 10:23:38 INFO     Average Micro-Accuracy 0.6006
+2019-08-01 10:23:38 INFO     Average Macro-Accuracy 0.2753
+2019-08-01 10:23:38 INFO     Average train time: 1 min 59 s
+2019-08-01 10:23:38 INFO     Average prediction time: 0 min 39 s
+2019-08-01 10:23:38 INFO     *************
+2019-08-01 10:23:38 INFO     Classification using encoding balanced-tree
+2019-08-01 10:34:10 INFO     Average Micro-Accuracy 0.5798
+2019-08-01 10:34:10 INFO     Average Macro-Accuracy 0.2825
+2019-08-01 10:34:10 INFO     Average train time: 1 min 31 s
+2019-08-01 10:34:10 INFO     Average prediction time: 0 min 30 s
+2019-08-01 10:34:10 INFO     *************
+2019-08-01 10:34:10 INFO     Classification using encoding meta-binary-tree-encoding
+2019-08-01 10:47:42 INFO     Average Micro-Accuracy 0.6212
+2019-08-01 10:47:42 INFO     Average Macro-Accuracy 0.3097
+2019-08-01 10:47:42 INFO     Average train time: 2 min 7 s
+2019-08-01 10:47:42 INFO     Average prediction time: 0 min 30 s
+2019-08-01 10:47:42 INFO     *************
+2019-08-01 10:47:42 INFO     Standard Classifier
+2019-08-01 10:51:46 INFO     Average Micro-Accuracy 0.7816
+2019-08-01 10:51:46 INFO     Average Macro-Accuracy 0.7693
+2019-08-01 10:51:46 INFO     Average train time: 0 min 31 s
+2019-08-01 10:51:46 INFO     Average prediction time: 0 min 12 s
+2019-08-01 10:51:46 INFO     *************
+2019-08-01 10:51:46 INFO     DATA FOR 610 CLASSES
+2019-08-01 10:51:46 INFO     Meta-Binary Tree Classifier
+2019-08-01 10:57:28 INFO     Average Micro-Accuracy 0.6891
+2019-08-01 10:57:28 INFO     Average Macro-Accuracy 0.4506
+2019-08-01 10:57:28 INFO     Average train time: 0 min 50 s
+2019-08-01 10:57:28 INFO     Average prediction time: 0 min 13 s
+2019-08-01 10:57:28 INFO     *************
+2019-08-01 10:57:28 INFO     Classification using encoding random
+2019-08-01 11:12:40 INFO     Average Micro-Accuracy 0.5749
+2019-08-01 11:12:40 INFO     Average Macro-Accuracy 0.2802
+2019-08-01 11:12:40 INFO     Average train time: 2 min 12 s
+2019-08-01 11:12:40 INFO     Average prediction time: 0 min 45 s
+2019-08-01 11:12:40 INFO     *************
+2019-08-01 11:12:40 INFO     Classification using encoding huffman
+2019-08-01 11:30:09 INFO     Average Micro-Accuracy 0.5114
+2019-08-01 11:30:09 INFO     Average Macro-Accuracy 0.2343
+2019-08-01 11:30:09 INFO     Average train time: 2 min 33 s
+2019-08-01 11:30:09 INFO     Average prediction time: 0 min 52 s
+2019-08-01 11:30:09 INFO     *************
+2019-08-01 11:30:09 INFO     Classification using encoding balanced-tree
+2019-08-01 11:44:02 INFO     Average Micro-Accuracy 0.5121
+2019-08-01 11:44:02 INFO     Average Macro-Accuracy 0.2459
+2019-08-01 11:44:02 INFO     Average train time: 2 min 0 s
+2019-08-01 11:44:02 INFO     Average prediction time: 0 min 41 s
+2019-08-01 11:44:02 INFO     *************
+2019-08-01 11:44:02 INFO     Classification using encoding meta-binary-tree-encoding
+2019-08-01 12:03:39 INFO     Average Micro-Accuracy 0.5678
+2019-08-01 12:03:39 INFO     Average Macro-Accuracy 0.2869
+2019-08-01 12:03:39 INFO     Average train time: 3 min 2 s
+2019-08-01 12:03:39 INFO     Average prediction time: 0 min 47 s
+2019-08-01 12:03:39 INFO     *************
+2019-08-01 12:03:39 INFO     Standard Classifier
+2019-08-01 12:26:16 INFO     Average Micro-Accuracy 0.7839
+2019-08-01 12:26:16 INFO     Average Macro-Accuracy 0.7545
+2019-08-01 12:26:16 INFO     Average train time: 3 min 41 s
+2019-08-01 12:26:16 INFO     Average prediction time: 0 min 44 s
+2019-08-01 12:26:16 INFO     *************
+2019-08-01 12:26:16 INFO     DATA FOR 710 CLASSES
+2019-08-01 12:26:16 INFO     Meta-Binary Tree Classifier
+2019-08-01 12:43:31 INFO     Average Micro-Accuracy 0.6784
+2019-08-01 12:43:31 INFO     Average Macro-Accuracy 0.4078
+2019-08-01 12:43:31 INFO     Average train time: 2 min 39 s
+2019-08-01 12:43:31 INFO     Average prediction time: 0 min 38 s
+2019-08-01 12:43:31 INFO     *************
+2019-08-01 12:43:31 INFO     Classification using encoding random
+2019-08-01 13:29:54 INFO     Average Micro-Accuracy 0.5152
+2019-08-01 13:29:54 INFO     Average Macro-Accuracy 0.2377
+2019-08-01 13:29:54 INFO     Average train time: 6 min 45 s
+2019-08-01 13:29:54 INFO     Average prediction time: 2 min 21 s
+2019-08-01 13:29:54 INFO     *************
+2019-08-01 13:29:54 INFO     Classification using encoding huffman
+2019-08-01 14:21:31 INFO     Average Micro-Accuracy 0.4539
+2019-08-01 14:21:31 INFO     Average Macro-Accuracy 0.2048
+2019-08-01 14:21:31 INFO     Average train time: 7 min 29 s
+2019-08-01 14:21:31 INFO     Average prediction time: 2 min 39 s
+2019-08-01 14:21:31 INFO     *************
+2019-08-01 14:21:31 INFO     Classification using encoding balanced-tree
+2019-08-01 15:09:50 INFO     Average Micro-Accuracy 0.5022
+2019-08-01 15:09:50 INFO     Average Macro-Accuracy 0.2108
+2019-08-01 15:09:50 INFO     Average train time: 7 min 3 s
+2019-08-01 15:09:50 INFO     Average prediction time: 2 min 26 s
+2019-08-01 15:09:50 INFO     *************
+2019-08-01 15:09:50 INFO     Classification using encoding meta-binary-tree-encoding
+2019-08-01 15:56:45 INFO     Average Micro-Accuracy 0.5270
+2019-08-01 15:56:45 INFO     Average Macro-Accuracy 0.2394
+2019-08-01 15:56:45 INFO     Average train time: 7 min 26 s
+2019-08-01 15:56:45 INFO     Average prediction time: 1 min 48 s
+2019-08-01 15:56:45 INFO     *************
+2019-08-01 15:56:45 INFO     Standard Classifier
+2019-08-01 16:17:49 INFO     Average Micro-Accuracy 0.7431
+2019-08-01 16:17:49 INFO     Average Macro-Accuracy 0.7225
+2019-08-01 16:17:49 INFO     Average train time: 3 min 31 s
+2019-08-01 16:17:49 INFO     Average prediction time: 0 min 36 s
+2019-08-01 16:17:49 INFO     *************
+2019-08-01 16:17:49 INFO     DATA FOR 810 CLASSES
+2019-08-01 16:17:49 INFO     Meta-Binary Tree Classifier
+2019-08-01 16:29:10 INFO     Average Micro-Accuracy 0.6554
+2019-08-01 16:29:10 INFO     Average Macro-Accuracy 0.3787
+2019-08-01 16:29:10 INFO     Average train time: 1 min 44 s
+2019-08-01 16:29:10 INFO     Average prediction time: 0 min 26 s
+2019-08-01 16:29:10 INFO     *************
+2019-08-01 16:29:10 INFO     Classification using encoding random
+2019-08-01 17:02:26 INFO     Average Micro-Accuracy 0.5426
+2019-08-01 17:02:26 INFO     Average Macro-Accuracy 0.2025
+2019-08-01 17:02:26 INFO     Average train time: 4 min 54 s
+2019-08-01 17:02:26 INFO     Average prediction time: 1 min 39 s
+2019-08-01 17:02:26 INFO     *************
+2019-08-01 17:02:26 INFO     Classification using encoding huffman
+2019-08-01 17:50:11 INFO     Average Micro-Accuracy 0.5144
+2019-08-01 17:50:11 INFO     Average Macro-Accuracy 0.1716
+2019-08-01 17:50:11 INFO     Average train time: 6 min 43 s
+2019-08-01 17:50:11 INFO     Average prediction time: 2 min 44 s
+2019-08-01 17:50:11 INFO     *************
+2019-08-01 17:50:11 INFO     Classification using encoding balanced-tree
+2019-08-01 18:49:11 INFO     Average Micro-Accuracy 0.4507
+2019-08-01 18:49:11 INFO     Average Macro-Accuracy 0.1760
+2019-08-01 18:49:11 INFO     Average train time: 8 min 37 s
+2019-08-01 18:49:11 INFO     Average prediction time: 2 min 59 s
+2019-08-01 18:49:11 INFO     *************
+2019-08-01 18:49:11 INFO     Classification using encoding meta-binary-tree-encoding
+2019-08-01 19:34:59 INFO     Average Micro-Accuracy 0.5048
+2019-08-01 19:34:59 INFO     Average Macro-Accuracy 0.2014
+2019-08-01 19:34:59 INFO     Average train time: 7 min 24 s
+2019-08-01 19:34:59 INFO     Average prediction time: 1 min 39 s
+2019-08-01 19:34:59 INFO     *************
+2019-08-01 19:34:59 INFO     Standard Classifier
+2019-08-01 20:04:16 INFO     Average Micro-Accuracy 0.7690
+2019-08-01 20:04:16 INFO     Average Macro-Accuracy 0.7670
+2019-08-01 20:04:16 INFO     Average train time: 4 min 47 s
+2019-08-01 20:04:16 INFO     Average prediction time: 0 min 58 s
+2019-08-01 20:04:16 INFO     *************
+2019-08-01 20:04:16 INFO     DATA FOR 910 CLASSES
+2019-08-01 20:04:16 INFO     Meta-Binary Tree Classifier
+2019-08-01 20:17:57 INFO     Average Micro-Accuracy 0.6294
+2019-08-01 20:17:57 INFO     Average Macro-Accuracy 0.3491
+2019-08-01 20:17:57 INFO     Average train time: 2 min 6 s
+2019-08-01 20:17:57 INFO     Average prediction time: 0 min 32 s
+2019-08-01 20:17:57 INFO     *************
+2019-08-01 20:17:57 INFO     Classification using encoding random
+2019-08-01 21:01:37 INFO     Average Micro-Accuracy 0.5047
+2019-08-01 21:01:37 INFO     Average Macro-Accuracy 0.1785
+2019-08-01 21:01:37 INFO     Average train time: 6 min 26 s
+2019-08-01 21:01:37 INFO     Average prediction time: 2 min 12 s
+2019-08-01 21:01:37 INFO     *************
+2019-08-01 21:01:37 INFO     Classification using encoding huffman
+2019-08-01 22:01:04 INFO     Average Micro-Accuracy 0.4942
+2019-08-01 22:01:04 INFO     Average Macro-Accuracy 0.1379
+2019-08-01 22:01:04 INFO     Average train time: 8 min 50 s
+2019-08-01 22:01:04 INFO     Average prediction time: 2 min 57 s
+2019-08-01 22:01:04 INFO     *************
+2019-08-01 22:01:04 INFO     Classification using encoding balanced-tree
+2019-08-01 22:49:54 INFO     Average Micro-Accuracy 0.4483
+2019-08-01 22:49:54 INFO     Average Macro-Accuracy 0.1575
+2019-08-01 22:49:54 INFO     Average train time: 7 min 12 s
+2019-08-01 22:49:54 INFO     Average prediction time: 2 min 27 s
+2019-08-01 22:49:54 INFO     *************
+2019-08-01 22:49:54 INFO     Classification using encoding meta-binary-tree-encoding
+2019-08-02 00:25:53 INFO     Average Micro-Accuracy 0.5063
+2019-08-02 00:25:53 INFO     Average Macro-Accuracy 0.1703
+2019-08-02 00:25:53 INFO     Average train time: 15 min 13 s
+2019-08-02 00:25:53 INFO     Average prediction time: 3 min 49 s
+2019-08-02 00:25:53 INFO     *************
+2019-08-02 00:25:53 INFO     Standard Classifier
+2019-08-02 01:26:14 INFO     Average Micro-Accuracy 0.6766
+2019-08-02 01:26:14 INFO     Average Macro-Accuracy 0.6650
+2019-08-02 01:26:14 INFO     Average train time: 9 min 44 s
+2019-08-02 01:26:14 INFO     Average prediction time: 2 min 11 s
+2019-08-02 01:26:14 INFO     *************
+2019-08-02 01:26:14 INFO     DATA FOR 1010 CLASSES
+2019-08-02 01:26:14 INFO     Meta-Binary Tree Classifier
+2019-08-02 01:55:27 INFO     Average Micro-Accuracy 0.5940
+2019-08-02 01:55:27 INFO     Average Macro-Accuracy 0.3266
+2019-08-02 01:55:27 INFO     Average train time: 4 min 24 s
+2019-08-02 01:55:27 INFO     Average prediction time: 1 min 16 s
+2019-08-02 01:55:27 INFO     *************
+2019-08-02 01:55:27 INFO     Classification using encoding random
+2019-08-02 03:27:40 INFO     Average Micro-Accuracy 0.4531
+2019-08-02 03:27:40 INFO     Average Macro-Accuracy 0.1652
+2019-08-02 03:27:40 INFO     Average train time: 13 min 32 s
+2019-08-02 03:27:40 INFO     Average prediction time: 4 min 44 s
+2019-08-02 03:27:40 INFO     *************
+2019-08-02 03:27:40 INFO     Classification using encoding huffman
+2019-08-02 05:27:54 INFO     Average Micro-Accuracy 0.4260
+2019-08-02 05:27:54 INFO     Average Macro-Accuracy 0.1362
+2019-08-02 05:27:54 INFO     Average train time: 17 min 40 s
+2019-08-02 05:27:54 INFO     Average prediction time: 6 min 11 s
+2019-08-02 05:27:54 INFO     *************
+2019-08-02 05:27:54 INFO     Classification using encoding balanced-tree
+2019-08-02 06:43:15 INFO     Average Micro-Accuracy 0.4149
+2019-08-02 06:43:15 INFO     Average Macro-Accuracy 0.1231
+2019-08-02 06:43:15 INFO     Average train time: 11 min 5 s
+2019-08-02 06:43:15 INFO     Average prediction time: 3 min 50 s
+2019-08-02 06:43:15 INFO     *************
+2019-08-02 06:43:15 INFO     Classification using encoding meta-binary-tree-encoding
