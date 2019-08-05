@@ -1,6 +1,6 @@
 
 
-from code.util import merge_dict, ComparableMixin
+from util import merge_dict, ComparableMixin
 import pandas as pd
 import numpy as np
 import queue

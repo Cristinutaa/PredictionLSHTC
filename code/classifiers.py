@@ -1,6 +1,5 @@
 import random
 import pandas as pd
-import time
 import numpy as np
 import h2o
 from sklearn.base import BaseEstimator, ClassifierMixin, clone
@@ -10,7 +9,7 @@ from scipy import sparse
 from h2o import H2OFrame
 from h2o.estimators import H2ORandomForestEstimator as RandomForest
 
-from code.encoding_decoding import create_balanced_tree_encoding, create_encoding_huffman, \
+from encoding_decoding import create_balanced_tree_encoding, create_encoding_huffman, \
     create_encoding_random, decode_users, encode_users, encode_classes, BinaryNode
 
 
@@ -225,9 +224,9 @@ def node_train(node, x_train, y_train, estimator):
         node.change_level(0)
 
 
-def create_magic_tree_encoding(x_train, y_train, estimator):
+def create_meta_binary_tree_encoding(x_train, y_train, estimator):
     """
-    Create the encoding for the classes for y train using the "Magic Tree" method
+    Create the encoding for the classes for y train using the Meta Binary Tree method
     :param x_train: the data for training
     :param y_train: the classes for training
     :param estimator: the model of the estimator to be considered
@@ -282,7 +281,7 @@ def predict_dataframe(data, node):
         return [(i, list(node.classes)[0]) for i in list(data.index)]
 
 
-def predict_magic_tree(x_test, root):
+def predict_meta_binary_tree(x_test, root):
     number_rows = x_test.shape[0]
     if sparse.issparse(x_test):
         prediction = [predict_row(x_test.getrow(i), root) for i in range(number_rows)]
@@ -324,16 +323,13 @@ class EncodedClassifier(BaseEstimator, ClassifierMixin):
         elif self.encoding_type == "random":
             self.dict_user_code, self.dict_code_user, self.encoding_length = create_encoding_random(set(y))
         elif self.encoding_type == "meta-binary-tree-encoding":
-            self.dict_user_code, self.dict_code_user, self.encoding_length = create_magic_tree_encoding(x, y,
-                                                                                                        self.estimator)
+            self.dict_user_code, self.dict_code_user, self.encoding_length = create_meta_binary_tree_encoding(x, y,
+                                                                                                              self.estimator)
         encoded_train = encode_users(y, self.dict_user_code, self.encoding_length)
         return encoded_train
 
     def fit(self, x, y=None):
-        start_time = time.time()
         y = self.__encode(x, y)
-        encoding_time = time.time() - start_time
-        print("encoding time: %d min %d s" % (encoding_time // 60, encoding_time % 60))
         if isinstance(self.estimator, h2o.estimators.H2OEstimator):
             self.estimators_ = [fit_h2o(x, y[column], self.estimator) for column in y]
             return self
@@ -354,14 +350,11 @@ class EncodedClassifier(BaseEstimator, ClassifierMixin):
         else:
             results = np.array([estimator.predict(x) for estimator in self.estimators_]).T
             results = pd.DataFrame(results)
-        start_time = time.time()
         y_pred = decode_users(results, self.dict_code_user)
-        decoding_time = time.time() - start_time
-        print("decoding time: %d min %d s" % (decoding_time // 60, decoding_time % 60))
         return np.array(y_pred)
 
 
-class MagicTreeClassifier(BaseEstimator, ClassifierMixin):
+class MetaBinaryTreeClassifier(BaseEstimator, ClassifierMixin):
     def __init__(self, estimator, n_jobs=1):
         self.estimator = estimator
         self.n_jobs = n_jobs
@@ -374,4 +367,4 @@ class MagicTreeClassifier(BaseEstimator, ClassifierMixin):
         return self
 
     def predict(self, x):
-        return np.array(predict_magic_tree(x, self.root))
+        return np.array(predict_meta_binary_tree(x, self.root))

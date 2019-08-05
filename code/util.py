@@ -1,4 +1,4 @@
-
+import _locale
 import configparser
 import datetime
 import logging
@@ -7,6 +7,7 @@ import os
 import sys
 import time
 from os import path
+from sklearn.metrics import f1_score, precision_score, recall_score
 
 import scipy
 
@@ -39,6 +40,9 @@ def ensure_dir(d):
     if not os.path.exists(d):
         os.makedirs(d)
 
+
+def force_locale_utf8():
+    _locale._getdefaultlocale = (lambda *args: ['en_US', 'utf8'])
 
 def setup_logger(name, dir=None):
 
@@ -143,3 +147,26 @@ class ComparableMixin(object):
 
     def __ne__(self, other):
         return self._compare(other, lambda s, o: s != o)
+
+def micro_recall(y_true, y_pred):
+    return recall_score(y_true, y_pred, average="micro")
+
+
+def macro_recall(y_true, y_pred):
+    return recall_score(y_true, y_pred, average="macro")
+
+
+def micro_precision(y_true, y_pred):
+    return precision_score(y_true, y_pred, average="micro")
+
+
+def macro_precision(y_true, y_pred):
+    return precision_score(y_true, y_pred, average="macro")
+
+
+def micro_f1(y_true, y_pred):
+    return f1_score(y_true, y_pred, average="micro")
+
+
+def macro_f1(y_true, y_pred):
+    return f1_score(y_true, y_pred, average="macro")
