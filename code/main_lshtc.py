@@ -185,9 +185,9 @@ def main():
 
     # Plot generation
     for classification in classification_types:
-        fig = plt.figure(figsize=(15, 15))
+        fig = plt.figure(figsize=(15, 30))
         for i, score in enumerate(metrics_dict.keys()):
-            ax = fig.add_subplot(2, 2, i + 1)
+            ax = fig.add_subplot(len(set(metrics_dict))//2+1, 2, i + 1)
             ax.plot(number_of_classes, metrics_dict[score][classification])
             plt.title("Classification %s for %s" % (score, classification))
             plt.xlabel("Number of classes")
@@ -195,9 +195,9 @@ def main():
         plt.savefig("../images/LSHTC_" + classification)
         plt.close(fig)
 
-    fig = plt.figure(figsize=(15, 15))
+    fig = plt.figure(figsize=(15, 30))
     for i, score in enumerate(metrics_dict.keys()):
-        ax = fig.add_subplot(2, 2, i + 1)
+        ax = fig.add_subplot(len(set(metrics_dict))//2+1, 2, i + 1)
         for classification in classification_types:
             ax.plot(number_of_classes, metrics_dict[score][classification])
         plt.title("Classification %s" % score)

@@ -16,6 +16,7 @@ METRICS = {"accuracy": accuracy_score, "micro-recall": micro_recall, "macro-reca
            "micro-precision": micro_precision, "macro-precision": macro_precision, "micro-f1": micro_f1,
            "macro-f1": macro_f1}
 
+
 def fold_prediction_result(x_train, y_train, x_test, y_test, classification_types, basic_classifier):
     """
     The training and prediction for one fold for all the types of classifiers indicated in classification_types
@@ -211,26 +212,26 @@ def user_identification():
 
     # Plot generation
     for classification in classification_types:
-        fig = plt.figure(figsize=(15, 15))
+        fig = plt.figure(figsize=(15, 30))
         for i, score in enumerate(metrics_dict.keys()):
-            ax = fig.add_subplot(2, 2, i + 1)
-            ax.plot(n_users, metrics_dict[score][classification])
+            ax = fig.add_subplot(len(set(metrics_dict))//2+1, 2, i + 1)
+            ax.plot(number_of_users, metrics_dict[score][classification])
             plt.title("Classification %s for %s" % (score, classification))
             plt.xlabel("Number of classes")
             plt.ylabel(score)
-        plt.savefig("../images/LSHTC_" + classification)
+        plt.savefig(path.join(out_folder, classification))
         plt.close(fig)
 
-    fig = plt.figure(figsize=(15, 15))
+    fig = plt.figure(figsize=(15, 30))
     for i, score in enumerate(metrics_dict.keys()):
-        ax = fig.add_subplot(2, 2, i + 1)
+        ax = fig.add_subplot(len(set(metrics_dict))//2+1, 2, i + 1)
         for classification in classification_types:
-            ax.plot(n_users, metrics_dict[score][classification])
+            ax.plot(number_of_users, metrics_dict[score][classification])
         plt.title("Classification %s" % score)
         plt.legend(classification_types, loc="upper right")
         plt.xlabel("Number of classes")
         plt.ylabel(score)
-    plt.savefig("../images/LSHTC_all")
+    plt.savefig(path.join(out_folder, "all"))
     plt.close(fig)
 
 
