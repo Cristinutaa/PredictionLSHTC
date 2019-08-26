@@ -6,7 +6,7 @@ import pandas as pd
 from h2o.estimators import H2ORandomForestEstimator as RandomForest
 from h2o import H2OFrame
 from copy import deepcopy
-from sklearn.metrics import accuracy_score, balanced_accuracy_score
+from sklearn.metrics import accuracy_score
 from util import get_config, timestamp, ensure_dir, setup_logger, force_locale_utf8, micro_recall, macro_recall, micro_precision, macro_precision, micro_f1, macro_f1
 from classifiers import EncodedClassifier, MetaBinaryTreeClassifier, get_h2o_column_types, fit_h2o
 import matplotlib.pyplot as plt
@@ -188,6 +188,7 @@ def user_identification():
                     n_metrics_dict[metric][classification].append(temp_metrics_dict[metric][classification])
                 n_train_time[classification].append(train[classification])
                 n_predict_time[classification].append(test[classification])
+            h2o.remove_all()
         for classification in classification_types:
             logger.info("***___***___***___***___***___")
             logger.info("Average data for %s" % classification)

@@ -1,89 +1,553 @@
-2019-08-05 21:39:17 INFO     intrusion_detection_synthetic
-2019-08-05 21:39:17 INFO     Out folder: C:\Users\Cristina\PycharmProjects\Large_Scale_Classification\H2O_20190805213917
-2019-08-05 21:39:18 INFO     total unique users: 961
-2019-08-05 21:39:18 INFO     number_of_users = [10]
-2019-08-05 21:39:18 INFO     ____________________________________
-2019-08-05 21:39:18 INFO     DATA FOR 10 CLASSES
-2019-08-05 21:39:18 INFO     ++++++++++++++++++++++++++++++++++
-2019-08-05 21:39:18 INFO     Fold 1
-2019-08-05 21:39:18 INFO     meta_binary_tree_classifier
-2019-08-05 21:39:26 INFO     random
-2019-08-05 21:39:31 INFO     huffman
-2019-08-05 21:39:34 INFO     balanced-tree
-2019-08-05 21:39:36 INFO     meta-binary-tree-encoding
-2019-08-05 21:39:43 INFO     standard-classifier
-2019-08-05 21:39:44 INFO     ***___***___***___***___***___
-2019-08-05 21:39:44 INFO     Average data for meta_binary_tree_classifier
-2019-08-05 21:39:44 INFO     Average accuracy for meta_binary_tree_classifier for 10 users: 1.00
-2019-08-05 21:39:44 INFO     Average micro-recall for meta_binary_tree_classifier for 10 users: 1.00
-2019-08-05 21:39:44 INFO     Average macro-recall for meta_binary_tree_classifier for 10 users: 1.00
-2019-08-05 21:39:44 INFO     Average micro-precision for meta_binary_tree_classifier for 10 users: 1.00
-2019-08-05 21:39:44 INFO     Average macro-precision for meta_binary_tree_classifier for 10 users: 1.00
-2019-08-05 21:39:44 INFO     Average micro-f1 for meta_binary_tree_classifier for 10 users: 1.00
-2019-08-05 21:39:44 INFO     Average macro-f1 for meta_binary_tree_classifier for 10 users: 1.00
-2019-08-05 21:39:44 INFO     Average training time for meta_binary_tree_classifier for 10 users : 0 min 7 s 
-2019-08-05 21:39:44 INFO     Average prediction time for meta_binary_tree_classifier for 10 users : 0 min 0 s 
-2019-08-05 21:39:44 INFO     ***___***___***___***___***___
-2019-08-05 21:39:44 INFO     Average data for random
-2019-08-05 21:39:44 INFO     Average accuracy for random for 10 users: 1.00
-2019-08-05 21:39:44 INFO     Average micro-recall for random for 10 users: 1.00
-2019-08-05 21:39:44 INFO     Average macro-recall for random for 10 users: 1.00
-2019-08-05 21:39:44 INFO     Average micro-precision for random for 10 users: 1.00
-2019-08-05 21:39:44 INFO     Average macro-precision for random for 10 users: 1.00
-2019-08-05 21:39:44 INFO     Average micro-f1 for random for 10 users: 1.00
-2019-08-05 21:39:44 INFO     Average macro-f1 for random for 10 users: 1.00
-2019-08-05 21:39:44 INFO     Average training time for random for 10 users : 0 min 4 s 
-2019-08-05 21:39:44 INFO     Average prediction time for random for 10 users : 0 min 0 s 
-2019-08-05 21:39:44 INFO     ***___***___***___***___***___
-2019-08-05 21:39:44 INFO     Average data for huffman
-2019-08-05 21:39:44 INFO     Average accuracy for huffman for 10 users: 1.00
-2019-08-05 21:39:44 INFO     Average micro-recall for huffman for 10 users: 1.00
-2019-08-05 21:39:44 INFO     Average macro-recall for huffman for 10 users: 1.00
-2019-08-05 21:39:44 INFO     Average micro-precision for huffman for 10 users: 1.00
-2019-08-05 21:39:44 INFO     Average macro-precision for huffman for 10 users: 1.00
-2019-08-05 21:39:44 INFO     Average micro-f1 for huffman for 10 users: 1.00
-2019-08-05 21:39:44 INFO     Average macro-f1 for huffman for 10 users: 1.00
-2019-08-05 21:39:44 INFO     Average training time for huffman for 10 users : 0 min 2 s 
-2019-08-05 21:39:44 INFO     Average prediction time for huffman for 10 users : 0 min 0 s 
-2019-08-05 21:39:44 INFO     ***___***___***___***___***___
-2019-08-05 21:39:44 INFO     Average data for balanced-tree
-2019-08-05 21:39:44 INFO     Average accuracy for balanced-tree for 10 users: 1.00
-2019-08-05 21:39:44 INFO     Average micro-recall for balanced-tree for 10 users: 1.00
-2019-08-05 21:39:44 INFO     Average macro-recall for balanced-tree for 10 users: 1.00
-2019-08-05 21:39:44 INFO     Average micro-precision for balanced-tree for 10 users: 1.00
-2019-08-05 21:39:44 INFO     Average macro-precision for balanced-tree for 10 users: 1.00
-2019-08-05 21:39:44 INFO     Average micro-f1 for balanced-tree for 10 users: 1.00
-2019-08-05 21:39:44 INFO     Average macro-f1 for balanced-tree for 10 users: 1.00
-2019-08-05 21:39:44 INFO     Average training time for balanced-tree for 10 users : 0 min 2 s 
-2019-08-05 21:39:44 INFO     Average prediction time for balanced-tree for 10 users : 0 min 0 s 
-2019-08-05 21:39:44 INFO     ***___***___***___***___***___
-2019-08-05 21:39:44 INFO     Average data for meta-binary-tree-encoding
-2019-08-05 21:39:44 INFO     Average accuracy for meta-binary-tree-encoding for 10 users: 0.97
-2019-08-05 21:39:44 INFO     Average micro-recall for meta-binary-tree-encoding for 10 users: 0.97
-2019-08-05 21:39:44 INFO     Average macro-recall for meta-binary-tree-encoding for 10 users: 0.97
-2019-08-05 21:39:44 INFO     Average micro-precision for meta-binary-tree-encoding for 10 users: 0.97
-2019-08-05 21:39:44 INFO     Average macro-precision for meta-binary-tree-encoding for 10 users: 0.98
-2019-08-05 21:39:44 INFO     Average micro-f1 for meta-binary-tree-encoding for 10 users: 0.97
-2019-08-05 21:39:44 INFO     Average macro-f1 for meta-binary-tree-encoding for 10 users: 0.97
-2019-08-05 21:39:44 INFO     Average training time for meta-binary-tree-encoding for 10 users : 0 min 6 s 
-2019-08-05 21:39:44 INFO     Average prediction time for meta-binary-tree-encoding for 10 users : 0 min 0 s 
-2019-08-05 21:39:44 INFO     ***___***___***___***___***___
-2019-08-05 21:39:44 INFO     Average data for standard-classifier
-2019-08-05 21:39:44 INFO     Average accuracy for standard-classifier for 10 users: 1.00
-2019-08-05 21:39:44 INFO     Average micro-recall for standard-classifier for 10 users: 1.00
-2019-08-05 21:39:44 INFO     Average macro-recall for standard-classifier for 10 users: 1.00
-2019-08-05 21:39:44 INFO     Average micro-precision for standard-classifier for 10 users: 1.00
-2019-08-05 21:39:44 INFO     Average macro-precision for standard-classifier for 10 users: 1.00
-2019-08-05 21:39:44 INFO     Average micro-f1 for standard-classifier for 10 users: 1.00
-2019-08-05 21:39:44 INFO     Average macro-f1 for standard-classifier for 10 users: 1.00
-2019-08-05 21:39:44 INFO     Average training time for standard-classifier for 10 users : 0 min 0 s 
-2019-08-05 21:39:44 INFO     Average prediction time for standard-classifier for 10 users : 0 min 0 s 
-2019-08-05 21:39:44 INFO     accuracy = {'meta_binary_tree_classifier': [1.0], 'random': [1.0], 'huffman': [1.0], 'balanced-tree': [1.0], 'meta-binary-tree-encoding': [0.9682539682539683], 'standard-classifier': [1.0]}
-2019-08-05 21:39:44 INFO     micro-recall = {'meta_binary_tree_classifier': [1.0], 'random': [1.0], 'huffman': [1.0], 'balanced-tree': [1.0], 'meta-binary-tree-encoding': [0.9682539682539683], 'standard-classifier': [1.0]}
-2019-08-05 21:39:44 INFO     macro-recall = {'meta_binary_tree_classifier': [1.0], 'random': [1.0], 'huffman': [1.0], 'balanced-tree': [1.0], 'meta-binary-tree-encoding': [0.9682539682539684], 'standard-classifier': [1.0]}
-2019-08-05 21:39:44 INFO     micro-precision = {'meta_binary_tree_classifier': [1.0], 'random': [1.0], 'huffman': [1.0], 'balanced-tree': [1.0], 'meta-binary-tree-encoding': [0.9682539682539683], 'standard-classifier': [1.0]}
-2019-08-05 21:39:44 INFO     macro-precision = {'meta_binary_tree_classifier': [1.0], 'random': [1.0], 'huffman': [1.0], 'balanced-tree': [1.0], 'meta-binary-tree-encoding': [0.9753086419753088], 'standard-classifier': [1.0]}
-2019-08-05 21:39:44 INFO     micro-f1 = {'meta_binary_tree_classifier': [1.0], 'random': [1.0], 'huffman': [1.0], 'balanced-tree': [1.0], 'meta-binary-tree-encoding': [0.9682539682539683], 'standard-classifier': [1.0]}
-2019-08-05 21:39:44 INFO     macro-f1 = {'meta_binary_tree_classifier': [1.0], 'random': [1.0], 'huffman': [1.0], 'balanced-tree': [1.0], 'meta-binary-tree-encoding': [0.9675925925925924], 'standard-classifier': [1.0]}
-2019-08-05 21:39:44 INFO     training_time = {'meta_binary_tree_classifier': [7.652810335159302], 'random': [4.887346506118774], 'huffman': [2.2780566215515137], 'balanced-tree': [2.1676077842712402], 'meta-binary-tree-encoding': [6.332706451416016], 'standard-classifier': [0.9273574352264404]}
-2019-08-05 21:39:44 INFO     prediction_time = {'meta_binary_tree_classifier': [0.7420601844787598], 'random': [0.25830864906311035], 'huffman': [0.17050528526306152], 'balanced-tree': [0.22340178489685059], 'meta-binary-tree-encoding': [0.1735997200012207], 'standard-classifier': [0.29121994972229004]}
+2019-08-22 13:21:48 INFO     intrusion_detection_synthetic
+2019-08-22 13:21:48 INFO     Out folder: C:\Users\Cristina\PycharmProjects\Large_Scale_Classification\H2O_20190822132148
+2019-08-22 13:21:48 INFO     total unique users: 961
+2019-08-22 13:21:48 INFO     number_of_users = [10, 20, 30, 40, 50]
+2019-08-22 13:21:48 INFO     ____________________________________
+2019-08-22 13:21:48 INFO     DATA FOR 10 CLASSES
+2019-08-22 13:21:48 INFO     ++++++++++++++++++++++++++++++++++
+2019-08-22 13:21:48 INFO     Fold 1
+2019-08-22 13:21:48 INFO     meta_binary_tree_classifier
+2019-08-22 13:22:01 INFO     random
+2019-08-22 13:22:04 INFO     huffman
+2019-08-22 13:22:08 INFO     balanced-tree
+2019-08-22 13:22:10 INFO     meta-binary-tree-encoding
+2019-08-22 13:22:17 INFO     standard-classifier
+2019-08-22 13:22:18 INFO     ++++++++++++++++++++++++++++++++++
+2019-08-22 13:22:18 INFO     Fold 2
+2019-08-22 13:22:18 INFO     meta_binary_tree_classifier
+2019-08-22 13:22:23 INFO     random
+2019-08-22 13:22:24 INFO     huffman
+2019-08-22 13:22:26 INFO     balanced-tree
+2019-08-22 13:22:28 INFO     meta-binary-tree-encoding
+2019-08-22 13:22:33 INFO     standard-classifier
+2019-08-22 13:22:34 INFO     ++++++++++++++++++++++++++++++++++
+2019-08-22 13:22:34 INFO     Fold 3
+2019-08-22 13:22:34 INFO     meta_binary_tree_classifier
+2019-08-22 13:22:38 INFO     random
+2019-08-22 13:22:40 INFO     huffman
+2019-08-22 13:22:41 INFO     balanced-tree
+2019-08-22 13:22:43 INFO     meta-binary-tree-encoding
+2019-08-22 13:22:48 INFO     standard-classifier
+2019-08-22 13:22:49 INFO     ++++++++++++++++++++++++++++++++++
+2019-08-22 13:22:49 INFO     Fold 4
+2019-08-22 13:22:49 INFO     meta_binary_tree_classifier
+2019-08-22 13:22:55 INFO     random
+2019-08-22 13:22:57 INFO     huffman
+2019-08-22 13:22:59 INFO     balanced-tree
+2019-08-22 13:23:02 INFO     meta-binary-tree-encoding
+2019-08-22 13:23:08 INFO     standard-classifier
+2019-08-22 13:23:08 INFO     ++++++++++++++++++++++++++++++++++
+2019-08-22 13:23:08 INFO     Fold 5
+2019-08-22 13:23:08 INFO     meta_binary_tree_classifier
+2019-08-22 13:23:13 INFO     random
+2019-08-22 13:23:14 INFO     huffman
+2019-08-22 13:23:16 INFO     balanced-tree
+2019-08-22 13:23:17 INFO     meta-binary-tree-encoding
+2019-08-22 13:23:23 INFO     standard-classifier
+2019-08-22 13:23:23 INFO     ***___***___***___***___***___
+2019-08-22 13:23:23 INFO     Average data for meta_binary_tree_classifier
+2019-08-22 13:23:23 INFO     Average accuracy for meta_binary_tree_classifier for 10 users: 0.96
+2019-08-22 13:23:23 INFO     Average micro-recall for meta_binary_tree_classifier for 10 users: 0.96
+2019-08-22 13:23:23 INFO     Average macro-recall for meta_binary_tree_classifier for 10 users: 0.96
+2019-08-22 13:23:23 INFO     Average micro-precision for meta_binary_tree_classifier for 10 users: 0.96
+2019-08-22 13:23:23 INFO     Average macro-precision for meta_binary_tree_classifier for 10 users: 0.97
+2019-08-22 13:23:23 INFO     Average micro-f1 for meta_binary_tree_classifier for 10 users: 0.96
+2019-08-22 13:23:23 INFO     Average macro-f1 for meta_binary_tree_classifier for 10 users: 0.96
+2019-08-22 13:23:23 INFO     Average training time for meta_binary_tree_classifier for 10 users : 0 min 4 s 
+2019-08-22 13:23:23 INFO     Average prediction time for meta_binary_tree_classifier for 10 users : 0 min 1 s 
+2019-08-22 13:23:23 INFO     ***___***___***___***___***___
+2019-08-22 13:23:23 INFO     Average data for random
+2019-08-22 13:23:23 INFO     Average accuracy for random for 10 users: 0.98
+2019-08-22 13:23:23 INFO     Average micro-recall for random for 10 users: 0.98
+2019-08-22 13:23:23 INFO     Average macro-recall for random for 10 users: 0.99
+2019-08-22 13:23:23 INFO     Average micro-precision for random for 10 users: 0.98
+2019-08-22 13:23:23 INFO     Average macro-precision for random for 10 users: 0.99
+2019-08-22 13:23:23 INFO     Average micro-f1 for random for 10 users: 0.98
+2019-08-22 13:23:23 INFO     Average macro-f1 for random for 10 users: 0.99
+2019-08-22 13:23:23 INFO     Average training time for random for 10 users : 0 min 1 s 
+2019-08-22 13:23:23 INFO     Average prediction time for random for 10 users : 0 min 0 s 
+2019-08-22 13:23:23 INFO     ***___***___***___***___***___
+2019-08-22 13:23:23 INFO     Average data for huffman
+2019-08-22 13:23:23 INFO     Average accuracy for huffman for 10 users: 0.97
+2019-08-22 13:23:23 INFO     Average micro-recall for huffman for 10 users: 0.97
+2019-08-22 13:23:23 INFO     Average macro-recall for huffman for 10 users: 0.97
+2019-08-22 13:23:23 INFO     Average micro-precision for huffman for 10 users: 0.97
+2019-08-22 13:23:23 INFO     Average macro-precision for huffman for 10 users: 0.98
+2019-08-22 13:23:23 INFO     Average micro-f1 for huffman for 10 users: 0.97
+2019-08-22 13:23:23 INFO     Average macro-f1 for huffman for 10 users: 0.97
+2019-08-22 13:23:23 INFO     Average training time for huffman for 10 users : 0 min 1 s 
+2019-08-22 13:23:23 INFO     Average prediction time for huffman for 10 users : 0 min 0 s 
+2019-08-22 13:23:23 INFO     ***___***___***___***___***___
+2019-08-22 13:23:23 INFO     Average data for balanced-tree
+2019-08-22 13:23:23 INFO     Average accuracy for balanced-tree for 10 users: 0.97
+2019-08-22 13:23:23 INFO     Average micro-recall for balanced-tree for 10 users: 0.97
+2019-08-22 13:23:23 INFO     Average macro-recall for balanced-tree for 10 users: 0.97
+2019-08-22 13:23:23 INFO     Average micro-precision for balanced-tree for 10 users: 0.97
+2019-08-22 13:23:23 INFO     Average macro-precision for balanced-tree for 10 users: 0.97
+2019-08-22 13:23:23 INFO     Average micro-f1 for balanced-tree for 10 users: 0.97
+2019-08-22 13:23:23 INFO     Average macro-f1 for balanced-tree for 10 users: 0.97
+2019-08-22 13:23:23 INFO     Average training time for balanced-tree for 10 users : 0 min 1 s 
+2019-08-22 13:23:23 INFO     Average prediction time for balanced-tree for 10 users : 0 min 0 s 
+2019-08-22 13:23:23 INFO     ***___***___***___***___***___
+2019-08-22 13:23:23 INFO     Average data for meta-binary-tree-encoding
+2019-08-22 13:23:23 INFO     Average accuracy for meta-binary-tree-encoding for 10 users: 0.97
+2019-08-22 13:23:23 INFO     Average micro-recall for meta-binary-tree-encoding for 10 users: 0.97
+2019-08-22 13:23:23 INFO     Average macro-recall for meta-binary-tree-encoding for 10 users: 0.95
+2019-08-22 13:23:23 INFO     Average micro-precision for meta-binary-tree-encoding for 10 users: 0.97
+2019-08-22 13:23:23 INFO     Average macro-precision for meta-binary-tree-encoding for 10 users: 0.96
+2019-08-22 13:23:23 INFO     Average micro-f1 for meta-binary-tree-encoding for 10 users: 0.97
+2019-08-22 13:23:23 INFO     Average macro-f1 for meta-binary-tree-encoding for 10 users: 0.96
+2019-08-22 13:23:23 INFO     Average training time for meta-binary-tree-encoding for 10 users : 0 min 5 s 
+2019-08-22 13:23:23 INFO     Average prediction time for meta-binary-tree-encoding for 10 users : 0 min 0 s 
+2019-08-22 13:23:23 INFO     ***___***___***___***___***___
+2019-08-22 13:23:23 INFO     Average data for standard-classifier
+2019-08-22 13:23:23 INFO     Average accuracy for standard-classifier for 10 users: 0.98
+2019-08-22 13:23:23 INFO     Average micro-recall for standard-classifier for 10 users: 0.98
+2019-08-22 13:23:23 INFO     Average macro-recall for standard-classifier for 10 users: 0.99
+2019-08-22 13:23:23 INFO     Average micro-precision for standard-classifier for 10 users: 0.98
+2019-08-22 13:23:23 INFO     Average macro-precision for standard-classifier for 10 users: 0.99
+2019-08-22 13:23:23 INFO     Average micro-f1 for standard-classifier for 10 users: 0.98
+2019-08-22 13:23:23 INFO     Average macro-f1 for standard-classifier for 10 users: 0.98
+2019-08-22 13:23:23 INFO     Average training time for standard-classifier for 10 users : 0 min 0 s 
+2019-08-22 13:23:23 INFO     Average prediction time for standard-classifier for 10 users : 0 min 0 s 
+2019-08-22 13:23:23 INFO     ____________________________________
+2019-08-22 13:23:23 INFO     DATA FOR 20 CLASSES
+2019-08-22 13:23:23 INFO     ++++++++++++++++++++++++++++++++++
+2019-08-22 13:23:23 INFO     Fold 1
+2019-08-22 13:23:23 INFO     meta_binary_tree_classifier
+2019-08-22 13:23:34 INFO     random
+2019-08-22 13:23:37 INFO     huffman
+2019-08-22 13:23:39 INFO     balanced-tree
+2019-08-22 13:23:42 INFO     meta-binary-tree-encoding
+2019-08-22 13:23:54 INFO     standard-classifier
+2019-08-22 13:23:56 INFO     ++++++++++++++++++++++++++++++++++
+2019-08-22 13:23:56 INFO     Fold 2
+2019-08-22 13:23:56 INFO     meta_binary_tree_classifier
+2019-08-22 13:24:07 INFO     random
+2019-08-22 13:24:11 INFO     huffman
+2019-08-22 13:24:15 INFO     balanced-tree
+2019-08-22 13:24:19 INFO     meta-binary-tree-encoding
+2019-08-22 13:24:31 INFO     standard-classifier
+2019-08-22 13:24:32 INFO     ++++++++++++++++++++++++++++++++++
+2019-08-22 13:24:32 INFO     Fold 3
+2019-08-22 13:24:32 INFO     meta_binary_tree_classifier
+2019-08-22 13:24:44 INFO     random
+2019-08-22 13:24:48 INFO     huffman
+2019-08-22 13:24:52 INFO     balanced-tree
+2019-08-22 13:24:55 INFO     meta-binary-tree-encoding
+2019-08-22 13:25:09 INFO     standard-classifier
+2019-08-22 13:25:10 INFO     ++++++++++++++++++++++++++++++++++
+2019-08-22 13:25:10 INFO     Fold 4
+2019-08-22 13:25:10 INFO     meta_binary_tree_classifier
+2019-08-22 13:25:21 INFO     random
+2019-08-22 13:25:24 INFO     huffman
+2019-08-22 13:25:28 INFO     balanced-tree
+2019-08-22 13:25:32 INFO     meta-binary-tree-encoding
+2019-08-22 13:25:43 INFO     standard-classifier
+2019-08-22 13:25:44 INFO     ++++++++++++++++++++++++++++++++++
+2019-08-22 13:25:44 INFO     Fold 5
+2019-08-22 13:25:44 INFO     meta_binary_tree_classifier
+2019-08-22 13:25:56 INFO     random
+2019-08-22 13:25:59 INFO     huffman
+2019-08-22 13:26:04 INFO     balanced-tree
+2019-08-22 13:26:07 INFO     meta-binary-tree-encoding
+2019-08-22 13:26:18 INFO     standard-classifier
+2019-08-22 13:26:19 INFO     ***___***___***___***___***___
+2019-08-22 13:26:19 INFO     Average data for meta_binary_tree_classifier
+2019-08-22 13:26:19 INFO     Average accuracy for meta_binary_tree_classifier for 20 users: 0.94
+2019-08-22 13:26:19 INFO     Average micro-recall for meta_binary_tree_classifier for 20 users: 0.94
+2019-08-22 13:26:19 INFO     Average macro-recall for meta_binary_tree_classifier for 20 users: 0.95
+2019-08-22 13:26:19 INFO     Average micro-precision for meta_binary_tree_classifier for 20 users: 0.94
+2019-08-22 13:26:19 INFO     Average macro-precision for meta_binary_tree_classifier for 20 users: 0.95
+2019-08-22 13:26:19 INFO     Average micro-f1 for meta_binary_tree_classifier for 20 users: 0.94
+2019-08-22 13:26:19 INFO     Average macro-f1 for meta_binary_tree_classifier for 20 users: 0.95
+2019-08-22 13:26:19 INFO     Average training time for meta_binary_tree_classifier for 20 users : 0 min 9 s 
+2019-08-22 13:26:19 INFO     Average prediction time for meta_binary_tree_classifier for 20 users : 0 min 1 s 
+2019-08-22 13:26:19 INFO     ***___***___***___***___***___
+2019-08-22 13:26:19 INFO     Average data for random
+2019-08-22 13:26:19 INFO     Average accuracy for random for 20 users: 0.97
+2019-08-22 13:26:19 INFO     Average micro-recall for random for 20 users: 0.97
+2019-08-22 13:26:19 INFO     Average macro-recall for random for 20 users: 0.97
+2019-08-22 13:26:19 INFO     Average micro-precision for random for 20 users: 0.97
+2019-08-22 13:26:19 INFO     Average macro-precision for random for 20 users: 0.97
+2019-08-22 13:26:19 INFO     Average micro-f1 for random for 20 users: 0.97
+2019-08-22 13:26:19 INFO     Average macro-f1 for random for 20 users: 0.97
+2019-08-22 13:26:19 INFO     Average training time for random for 20 users : 0 min 2 s 
+2019-08-22 13:26:19 INFO     Average prediction time for random for 20 users : 0 min 1 s 
+2019-08-22 13:26:19 INFO     ***___***___***___***___***___
+2019-08-22 13:26:19 INFO     Average data for huffman
+2019-08-22 13:26:19 INFO     Average accuracy for huffman for 20 users: 0.96
+2019-08-22 13:26:19 INFO     Average micro-recall for huffman for 20 users: 0.96
+2019-08-22 13:26:19 INFO     Average macro-recall for huffman for 20 users: 0.96
+2019-08-22 13:26:19 INFO     Average micro-precision for huffman for 20 users: 0.96
+2019-08-22 13:26:19 INFO     Average macro-precision for huffman for 20 users: 0.97
+2019-08-22 13:26:19 INFO     Average micro-f1 for huffman for 20 users: 0.96
+2019-08-22 13:26:19 INFO     Average macro-f1 for huffman for 20 users: 0.96
+2019-08-22 13:26:19 INFO     Average training time for huffman for 20 users : 0 min 2 s 
+2019-08-22 13:26:19 INFO     Average prediction time for huffman for 20 users : 0 min 1 s 
+2019-08-22 13:26:19 INFO     ***___***___***___***___***___
+2019-08-22 13:26:19 INFO     Average data for balanced-tree
+2019-08-22 13:26:19 INFO     Average accuracy for balanced-tree for 20 users: 0.96
+2019-08-22 13:26:19 INFO     Average micro-recall for balanced-tree for 20 users: 0.96
+2019-08-22 13:26:19 INFO     Average macro-recall for balanced-tree for 20 users: 0.97
+2019-08-22 13:26:19 INFO     Average micro-precision for balanced-tree for 20 users: 0.96
+2019-08-22 13:26:19 INFO     Average macro-precision for balanced-tree for 20 users: 0.97
+2019-08-22 13:26:19 INFO     Average micro-f1 for balanced-tree for 20 users: 0.96
+2019-08-22 13:26:19 INFO     Average macro-f1 for balanced-tree for 20 users: 0.97
+2019-08-22 13:26:19 INFO     Average training time for balanced-tree for 20 users : 0 min 2 s 
+2019-08-22 13:26:19 INFO     Average prediction time for balanced-tree for 20 users : 0 min 1 s 
+2019-08-22 13:26:19 INFO     ***___***___***___***___***___
+2019-08-22 13:26:19 INFO     Average data for meta-binary-tree-encoding
+2019-08-22 13:26:19 INFO     Average accuracy for meta-binary-tree-encoding for 20 users: 0.96
+2019-08-22 13:26:19 INFO     Average micro-recall for meta-binary-tree-encoding for 20 users: 0.96
+2019-08-22 13:26:19 INFO     Average macro-recall for meta-binary-tree-encoding for 20 users: 0.96
+2019-08-22 13:26:19 INFO     Average micro-precision for meta-binary-tree-encoding for 20 users: 0.96
+2019-08-22 13:26:19 INFO     Average macro-precision for meta-binary-tree-encoding for 20 users: 0.97
+2019-08-22 13:26:19 INFO     Average micro-f1 for meta-binary-tree-encoding for 20 users: 0.96
+2019-08-22 13:26:19 INFO     Average macro-f1 for meta-binary-tree-encoding for 20 users: 0.96
+2019-08-22 13:26:19 INFO     Average training time for meta-binary-tree-encoding for 20 users : 0 min 10 s 
+2019-08-22 13:26:19 INFO     Average prediction time for meta-binary-tree-encoding for 20 users : 0 min 1 s 
+2019-08-22 13:26:19 INFO     ***___***___***___***___***___
+2019-08-22 13:26:19 INFO     Average data for standard-classifier
+2019-08-22 13:26:19 INFO     Average accuracy for standard-classifier for 20 users: 0.97
+2019-08-22 13:26:19 INFO     Average micro-recall for standard-classifier for 20 users: 0.97
+2019-08-22 13:26:19 INFO     Average macro-recall for standard-classifier for 20 users: 0.98
+2019-08-22 13:26:19 INFO     Average micro-precision for standard-classifier for 20 users: 0.97
+2019-08-22 13:26:19 INFO     Average macro-precision for standard-classifier for 20 users: 0.98
+2019-08-22 13:26:19 INFO     Average micro-f1 for standard-classifier for 20 users: 0.97
+2019-08-22 13:26:19 INFO     Average macro-f1 for standard-classifier for 20 users: 0.98
+2019-08-22 13:26:19 INFO     Average training time for standard-classifier for 20 users : 0 min 0 s 
+2019-08-22 13:26:19 INFO     Average prediction time for standard-classifier for 20 users : 0 min 0 s 
+2019-08-22 13:26:19 INFO     ____________________________________
+2019-08-22 13:26:19 INFO     DATA FOR 30 CLASSES
+2019-08-22 13:26:19 INFO     ++++++++++++++++++++++++++++++++++
+2019-08-22 13:26:19 INFO     Fold 1
+2019-08-22 13:26:19 INFO     meta_binary_tree_classifier
+2019-08-22 13:26:32 INFO     random
+2019-08-22 13:26:36 INFO     huffman
+2019-08-22 13:26:39 INFO     balanced-tree
+2019-08-22 13:26:42 INFO     meta-binary-tree-encoding
+2019-08-22 13:26:55 INFO     standard-classifier
+2019-08-22 13:26:56 INFO     ++++++++++++++++++++++++++++++++++
+2019-08-22 13:26:56 INFO     Fold 2
+2019-08-22 13:26:56 INFO     meta_binary_tree_classifier
+2019-08-22 13:27:11 INFO     random
+2019-08-22 13:27:15 INFO     huffman
+2019-08-22 13:27:18 INFO     balanced-tree
+2019-08-22 13:27:22 INFO     meta-binary-tree-encoding
+2019-08-22 13:27:39 INFO     standard-classifier
+2019-08-22 13:27:40 INFO     ++++++++++++++++++++++++++++++++++
+2019-08-22 13:27:40 INFO     Fold 3
+2019-08-22 13:27:40 INFO     meta_binary_tree_classifier
+2019-08-22 13:27:55 INFO     random
+2019-08-22 13:27:59 INFO     huffman
+2019-08-22 13:28:03 INFO     balanced-tree
+2019-08-22 13:28:08 INFO     meta-binary-tree-encoding
+2019-08-22 13:28:25 INFO     standard-classifier
+2019-08-22 13:28:26 INFO     ++++++++++++++++++++++++++++++++++
+2019-08-22 13:28:26 INFO     Fold 4
+2019-08-22 13:28:26 INFO     meta_binary_tree_classifier
+2019-08-22 13:28:42 INFO     random
+2019-08-22 13:28:46 INFO     huffman
+2019-08-22 13:28:51 INFO     balanced-tree
+2019-08-22 13:28:55 INFO     meta-binary-tree-encoding
+2019-08-22 13:29:11 INFO     standard-classifier
+2019-08-22 13:29:12 INFO     ++++++++++++++++++++++++++++++++++
+2019-08-22 13:29:12 INFO     Fold 5
+2019-08-22 13:29:12 INFO     meta_binary_tree_classifier
+2019-08-22 13:29:30 INFO     random
+2019-08-22 13:29:34 INFO     huffman
+2019-08-22 13:29:38 INFO     balanced-tree
+2019-08-22 13:29:42 INFO     meta-binary-tree-encoding
+2019-08-22 13:29:58 INFO     standard-classifier
+2019-08-22 13:29:59 INFO     ***___***___***___***___***___
+2019-08-22 13:29:59 INFO     Average data for meta_binary_tree_classifier
+2019-08-22 13:29:59 INFO     Average accuracy for meta_binary_tree_classifier for 30 users: 0.94
+2019-08-22 13:29:59 INFO     Average micro-recall for meta_binary_tree_classifier for 30 users: 0.94
+2019-08-22 13:29:59 INFO     Average macro-recall for meta_binary_tree_classifier for 30 users: 0.96
+2019-08-22 13:29:59 INFO     Average micro-precision for meta_binary_tree_classifier for 30 users: 0.94
+2019-08-22 13:29:59 INFO     Average macro-precision for meta_binary_tree_classifier for 30 users: 0.96
+2019-08-22 13:29:59 INFO     Average micro-f1 for meta_binary_tree_classifier for 30 users: 0.94
+2019-08-22 13:29:59 INFO     Average macro-f1 for meta_binary_tree_classifier for 30 users: 0.96
+2019-08-22 13:29:59 INFO     Average training time for meta_binary_tree_classifier for 30 users : 0 min 13 s 
+2019-08-22 13:29:59 INFO     Average prediction time for meta_binary_tree_classifier for 30 users : 0 min 2 s 
+2019-08-22 13:29:59 INFO     ***___***___***___***___***___
+2019-08-22 13:29:59 INFO     Average data for random
+2019-08-22 13:29:59 INFO     Average accuracy for random for 30 users: 0.96
+2019-08-22 13:29:59 INFO     Average micro-recall for random for 30 users: 0.96
+2019-08-22 13:29:59 INFO     Average macro-recall for random for 30 users: 0.98
+2019-08-22 13:29:59 INFO     Average micro-precision for random for 30 users: 0.96
+2019-08-22 13:29:59 INFO     Average macro-precision for random for 30 users: 0.97
+2019-08-22 13:29:59 INFO     Average micro-f1 for random for 30 users: 0.96
+2019-08-22 13:29:59 INFO     Average macro-f1 for random for 30 users: 0.97
+2019-08-22 13:29:59 INFO     Average training time for random for 30 users : 0 min 2 s 
+2019-08-22 13:29:59 INFO     Average prediction time for random for 30 users : 0 min 1 s 
+2019-08-22 13:29:59 INFO     ***___***___***___***___***___
+2019-08-22 13:29:59 INFO     Average data for huffman
+2019-08-22 13:29:59 INFO     Average accuracy for huffman for 30 users: 0.95
+2019-08-22 13:29:59 INFO     Average micro-recall for huffman for 30 users: 0.95
+2019-08-22 13:29:59 INFO     Average macro-recall for huffman for 30 users: 0.97
+2019-08-22 13:29:59 INFO     Average micro-precision for huffman for 30 users: 0.95
+2019-08-22 13:29:59 INFO     Average macro-precision for huffman for 30 users: 0.97
+2019-08-22 13:29:59 INFO     Average micro-f1 for huffman for 30 users: 0.95
+2019-08-22 13:29:59 INFO     Average macro-f1 for huffman for 30 users: 0.97
+2019-08-22 13:29:59 INFO     Average training time for huffman for 30 users : 0 min 2 s 
+2019-08-22 13:29:59 INFO     Average prediction time for huffman for 30 users : 0 min 1 s 
+2019-08-22 13:29:59 INFO     ***___***___***___***___***___
+2019-08-22 13:29:59 INFO     Average data for balanced-tree
+2019-08-22 13:29:59 INFO     Average accuracy for balanced-tree for 30 users: 0.96
+2019-08-22 13:29:59 INFO     Average micro-recall for balanced-tree for 30 users: 0.96
+2019-08-22 13:29:59 INFO     Average macro-recall for balanced-tree for 30 users: 0.98
+2019-08-22 13:29:59 INFO     Average micro-precision for balanced-tree for 30 users: 0.96
+2019-08-22 13:29:59 INFO     Average macro-precision for balanced-tree for 30 users: 0.97
+2019-08-22 13:29:59 INFO     Average micro-f1 for balanced-tree for 30 users: 0.96
+2019-08-22 13:29:59 INFO     Average macro-f1 for balanced-tree for 30 users: 0.97
+2019-08-22 13:29:59 INFO     Average training time for balanced-tree for 30 users : 0 min 2 s 
+2019-08-22 13:29:59 INFO     Average prediction time for balanced-tree for 30 users : 0 min 1 s 
+2019-08-22 13:29:59 INFO     ***___***___***___***___***___
+2019-08-22 13:29:59 INFO     Average data for meta-binary-tree-encoding
+2019-08-22 13:29:59 INFO     Average accuracy for meta-binary-tree-encoding for 30 users: 0.96
+2019-08-22 13:29:59 INFO     Average micro-recall for meta-binary-tree-encoding for 30 users: 0.96
+2019-08-22 13:29:59 INFO     Average macro-recall for meta-binary-tree-encoding for 30 users: 0.97
+2019-08-22 13:29:59 INFO     Average micro-precision for meta-binary-tree-encoding for 30 users: 0.96
+2019-08-22 13:29:59 INFO     Average macro-precision for meta-binary-tree-encoding for 30 users: 0.97
+2019-08-22 13:29:59 INFO     Average micro-f1 for meta-binary-tree-encoding for 30 users: 0.96
+2019-08-22 13:29:59 INFO     Average macro-f1 for meta-binary-tree-encoding for 30 users: 0.97
+2019-08-22 13:29:59 INFO     Average training time for meta-binary-tree-encoding for 30 users : 0 min 14 s 
+2019-08-22 13:29:59 INFO     Average prediction time for meta-binary-tree-encoding for 30 users : 0 min 1 s 
+2019-08-22 13:29:59 INFO     ***___***___***___***___***___
+2019-08-22 13:29:59 INFO     Average data for standard-classifier
+2019-08-22 13:29:59 INFO     Average accuracy for standard-classifier for 30 users: 0.98
+2019-08-22 13:29:59 INFO     Average micro-recall for standard-classifier for 30 users: 0.98
+2019-08-22 13:29:59 INFO     Average macro-recall for standard-classifier for 30 users: 0.99
+2019-08-22 13:29:59 INFO     Average micro-precision for standard-classifier for 30 users: 0.98
+2019-08-22 13:29:59 INFO     Average macro-precision for standard-classifier for 30 users: 0.99
+2019-08-22 13:29:59 INFO     Average micro-f1 for standard-classifier for 30 users: 0.98
+2019-08-22 13:29:59 INFO     Average macro-f1 for standard-classifier for 30 users: 0.99
+2019-08-22 13:29:59 INFO     Average training time for standard-classifier for 30 users : 0 min 0 s 
+2019-08-22 13:29:59 INFO     Average prediction time for standard-classifier for 30 users : 0 min 0 s 
+2019-08-22 13:29:59 INFO     ____________________________________
+2019-08-22 13:29:59 INFO     DATA FOR 40 CLASSES
+2019-08-22 13:29:59 INFO     ++++++++++++++++++++++++++++++++++
+2019-08-22 13:29:59 INFO     Fold 1
+2019-08-22 13:29:59 INFO     meta_binary_tree_classifier
+2019-08-22 13:30:21 INFO     random
+2019-08-22 13:30:26 INFO     huffman
+2019-08-22 13:30:32 INFO     balanced-tree
+2019-08-22 13:30:37 INFO     meta-binary-tree-encoding
+2019-08-22 13:30:59 INFO     standard-classifier
+2019-08-22 13:31:01 INFO     ++++++++++++++++++++++++++++++++++
+2019-08-22 13:31:01 INFO     Fold 2
+2019-08-22 13:31:01 INFO     meta_binary_tree_classifier
+2019-08-22 13:31:24 INFO     random
+2019-08-22 13:31:29 INFO     huffman
+2019-08-22 13:31:37 INFO     balanced-tree
+2019-08-22 13:31:44 INFO     meta-binary-tree-encoding
+2019-08-22 13:32:07 INFO     standard-classifier
+2019-08-22 13:32:09 INFO     ++++++++++++++++++++++++++++++++++
+2019-08-22 13:32:09 INFO     Fold 3
+2019-08-22 13:32:09 INFO     meta_binary_tree_classifier
+2019-08-22 13:32:31 INFO     random
+2019-08-22 13:32:36 INFO     huffman
+2019-08-22 13:32:41 INFO     balanced-tree
+2019-08-22 13:32:46 INFO     meta-binary-tree-encoding
+2019-08-22 13:33:08 INFO     standard-classifier
+2019-08-22 13:33:11 INFO     ++++++++++++++++++++++++++++++++++
+2019-08-22 13:33:11 INFO     Fold 4
+2019-08-22 13:33:11 INFO     meta_binary_tree_classifier
+2019-08-22 13:33:30 INFO     random
+2019-08-22 13:33:35 INFO     huffman
+2019-08-22 13:33:40 INFO     balanced-tree
+2019-08-22 13:33:45 INFO     meta-binary-tree-encoding
+2019-08-22 13:34:06 INFO     standard-classifier
+2019-08-22 13:34:07 INFO     ++++++++++++++++++++++++++++++++++
+2019-08-22 13:34:07 INFO     Fold 5
+2019-08-22 13:34:07 INFO     meta_binary_tree_classifier
+2019-08-22 13:34:28 INFO     random
+2019-08-22 13:34:33 INFO     huffman
+2019-08-22 13:34:38 INFO     balanced-tree
+2019-08-22 13:34:43 INFO     meta-binary-tree-encoding
+2019-08-22 13:35:05 INFO     standard-classifier
+2019-08-22 13:35:07 INFO     ***___***___***___***___***___
+2019-08-22 13:35:07 INFO     Average data for meta_binary_tree_classifier
+2019-08-22 13:35:07 INFO     Average accuracy for meta_binary_tree_classifier for 40 users: 0.91
+2019-08-22 13:35:07 INFO     Average micro-recall for meta_binary_tree_classifier for 40 users: 0.91
+2019-08-22 13:35:07 INFO     Average macro-recall for meta_binary_tree_classifier for 40 users: 0.94
+2019-08-22 13:35:07 INFO     Average micro-precision for meta_binary_tree_classifier for 40 users: 0.91
+2019-08-22 13:35:07 INFO     Average macro-precision for meta_binary_tree_classifier for 40 users: 0.95
+2019-08-22 13:35:07 INFO     Average micro-f1 for meta_binary_tree_classifier for 40 users: 0.91
+2019-08-22 13:35:07 INFO     Average macro-f1 for meta_binary_tree_classifier for 40 users: 0.94
+2019-08-22 13:35:07 INFO     Average training time for meta_binary_tree_classifier for 40 users : 0 min 17 s 
+2019-08-22 13:35:07 INFO     Average prediction time for meta_binary_tree_classifier for 40 users : 0 min 4 s 
+2019-08-22 13:35:07 INFO     ***___***___***___***___***___
+2019-08-22 13:35:07 INFO     Average data for random
+2019-08-22 13:35:07 INFO     Average accuracy for random for 40 users: 0.91
+2019-08-22 13:35:07 INFO     Average micro-recall for random for 40 users: 0.91
+2019-08-22 13:35:07 INFO     Average macro-recall for random for 40 users: 0.96
+2019-08-22 13:35:07 INFO     Average micro-precision for random for 40 users: 0.91
+2019-08-22 13:35:07 INFO     Average macro-precision for random for 40 users: 0.95
+2019-08-22 13:35:07 INFO     Average micro-f1 for random for 40 users: 0.91
+2019-08-22 13:35:07 INFO     Average macro-f1 for random for 40 users: 0.94
+2019-08-22 13:35:07 INFO     Average training time for random for 40 users : 0 min 3 s 
+2019-08-22 13:35:07 INFO     Average prediction time for random for 40 users : 0 min 1 s 
+2019-08-22 13:35:07 INFO     ***___***___***___***___***___
+2019-08-22 13:35:07 INFO     Average data for huffman
+2019-08-22 13:35:07 INFO     Average accuracy for huffman for 40 users: 0.91
+2019-08-22 13:35:07 INFO     Average micro-recall for huffman for 40 users: 0.91
+2019-08-22 13:35:07 INFO     Average macro-recall for huffman for 40 users: 0.95
+2019-08-22 13:35:07 INFO     Average micro-precision for huffman for 40 users: 0.91
+2019-08-22 13:35:07 INFO     Average macro-precision for huffman for 40 users: 0.95
+2019-08-22 13:35:07 INFO     Average micro-f1 for huffman for 40 users: 0.91
+2019-08-22 13:35:07 INFO     Average macro-f1 for huffman for 40 users: 0.94
+2019-08-22 13:35:07 INFO     Average training time for huffman for 40 users : 0 min 3 s 
+2019-08-22 13:35:07 INFO     Average prediction time for huffman for 40 users : 0 min 1 s 
+2019-08-22 13:35:07 INFO     ***___***___***___***___***___
+2019-08-22 13:35:07 INFO     Average data for balanced-tree
+2019-08-22 13:35:07 INFO     Average accuracy for balanced-tree for 40 users: 0.93
+2019-08-22 13:35:07 INFO     Average micro-recall for balanced-tree for 40 users: 0.93
+2019-08-22 13:35:07 INFO     Average macro-recall for balanced-tree for 40 users: 0.96
+2019-08-22 13:35:07 INFO     Average micro-precision for balanced-tree for 40 users: 0.93
+2019-08-22 13:35:07 INFO     Average macro-precision for balanced-tree for 40 users: 0.96
+2019-08-22 13:35:07 INFO     Average micro-f1 for balanced-tree for 40 users: 0.93
+2019-08-22 13:35:07 INFO     Average macro-f1 for balanced-tree for 40 users: 0.96
+2019-08-22 13:35:07 INFO     Average training time for balanced-tree for 40 users : 0 min 3 s 
+2019-08-22 13:35:07 INFO     Average prediction time for balanced-tree for 40 users : 0 min 1 s 
+2019-08-22 13:35:07 INFO     ***___***___***___***___***___
+2019-08-22 13:35:07 INFO     Average data for meta-binary-tree-encoding
+2019-08-22 13:35:07 INFO     Average accuracy for meta-binary-tree-encoding for 40 users: 0.93
+2019-08-22 13:35:07 INFO     Average micro-recall for meta-binary-tree-encoding for 40 users: 0.93
+2019-08-22 13:35:07 INFO     Average macro-recall for meta-binary-tree-encoding for 40 users: 0.96
+2019-08-22 13:35:07 INFO     Average micro-precision for meta-binary-tree-encoding for 40 users: 0.93
+2019-08-22 13:35:07 INFO     Average macro-precision for meta-binary-tree-encoding for 40 users: 0.96
+2019-08-22 13:35:07 INFO     Average micro-f1 for meta-binary-tree-encoding for 40 users: 0.93
+2019-08-22 13:35:07 INFO     Average macro-f1 for meta-binary-tree-encoding for 40 users: 0.95
+2019-08-22 13:35:07 INFO     Average training time for meta-binary-tree-encoding for 40 users : 0 min 20 s 
+2019-08-22 13:35:07 INFO     Average prediction time for meta-binary-tree-encoding for 40 users : 0 min 1 s 
+2019-08-22 13:35:07 INFO     ***___***___***___***___***___
+2019-08-22 13:35:07 INFO     Average data for standard-classifier
+2019-08-22 13:35:07 INFO     Average accuracy for standard-classifier for 40 users: 0.94
+2019-08-22 13:35:07 INFO     Average micro-recall for standard-classifier for 40 users: 0.94
+2019-08-22 13:35:07 INFO     Average macro-recall for standard-classifier for 40 users: 0.97
+2019-08-22 13:35:07 INFO     Average micro-precision for standard-classifier for 40 users: 0.94
+2019-08-22 13:35:07 INFO     Average macro-precision for standard-classifier for 40 users: 0.97
+2019-08-22 13:35:07 INFO     Average micro-f1 for standard-classifier for 40 users: 0.94
+2019-08-22 13:35:07 INFO     Average macro-f1 for standard-classifier for 40 users: 0.97
+2019-08-22 13:35:07 INFO     Average training time for standard-classifier for 40 users : 0 min 1 s 
+2019-08-22 13:35:07 INFO     Average prediction time for standard-classifier for 40 users : 0 min 0 s 
+2019-08-22 13:35:07 INFO     ____________________________________
+2019-08-22 13:35:07 INFO     DATA FOR 50 CLASSES
+2019-08-22 13:35:07 INFO     ++++++++++++++++++++++++++++++++++
+2019-08-22 13:35:07 INFO     Fold 1
+2019-08-22 13:35:07 INFO     meta_binary_tree_classifier
+2019-08-22 13:35:33 INFO     random
+2019-08-22 13:35:38 INFO     huffman
+2019-08-22 13:35:43 INFO     balanced-tree
+2019-08-22 13:35:48 INFO     meta-binary-tree-encoding
+2019-08-22 13:36:18 INFO     standard-classifier
+2019-08-22 13:36:20 INFO     ++++++++++++++++++++++++++++++++++
+2019-08-22 13:36:20 INFO     Fold 2
+2019-08-22 13:36:20 INFO     meta_binary_tree_classifier
+2019-08-22 13:36:50 INFO     random
+2019-08-22 13:36:55 INFO     huffman
+2019-08-22 13:37:00 INFO     balanced-tree
+2019-08-22 13:37:05 INFO     meta-binary-tree-encoding
+2019-08-22 13:37:32 INFO     standard-classifier
+2019-08-22 13:37:34 INFO     ++++++++++++++++++++++++++++++++++
+2019-08-22 13:37:34 INFO     Fold 3
+2019-08-22 13:37:34 INFO     meta_binary_tree_classifier
+2019-08-22 13:38:00 INFO     random
+2019-08-22 13:38:05 INFO     huffman
+2019-08-22 13:38:10 INFO     balanced-tree
+2019-08-22 13:38:15 INFO     meta-binary-tree-encoding
+2019-08-22 13:38:40 INFO     standard-classifier
+2019-08-22 13:38:42 INFO     ++++++++++++++++++++++++++++++++++
+2019-08-22 13:38:42 INFO     Fold 4
+2019-08-22 13:38:42 INFO     meta_binary_tree_classifier
+2019-08-22 13:39:07 INFO     random
+2019-08-22 13:39:13 INFO     huffman
+2019-08-22 13:39:19 INFO     balanced-tree
+2019-08-22 13:39:25 INFO     meta-binary-tree-encoding
+2019-08-22 13:39:53 INFO     standard-classifier
+2019-08-22 13:39:56 INFO     ++++++++++++++++++++++++++++++++++
+2019-08-22 13:39:56 INFO     Fold 5
+2019-08-22 13:39:56 INFO     meta_binary_tree_classifier
+2019-08-22 13:40:21 INFO     random
+2019-08-22 13:40:26 INFO     huffman
+2019-08-22 13:40:32 INFO     balanced-tree
+2019-08-22 13:40:37 INFO     meta-binary-tree-encoding
+2019-08-22 13:41:03 INFO     standard-classifier
+2019-08-22 13:41:05 INFO     ***___***___***___***___***___
+2019-08-22 13:41:05 INFO     Average data for meta_binary_tree_classifier
+2019-08-22 13:41:05 INFO     Average accuracy for meta_binary_tree_classifier for 50 users: 0.91
+2019-08-22 13:41:05 INFO     Average micro-recall for meta_binary_tree_classifier for 50 users: 0.91
+2019-08-22 13:41:05 INFO     Average macro-recall for meta_binary_tree_classifier for 50 users: 0.94
+2019-08-22 13:41:05 INFO     Average micro-precision for meta_binary_tree_classifier for 50 users: 0.91
+2019-08-22 13:41:05 INFO     Average macro-precision for meta_binary_tree_classifier for 50 users: 0.95
+2019-08-22 13:41:05 INFO     Average micro-f1 for meta_binary_tree_classifier for 50 users: 0.91
+2019-08-22 13:41:05 INFO     Average macro-f1 for meta_binary_tree_classifier for 50 users: 0.94
+2019-08-22 13:41:05 INFO     Average training time for meta_binary_tree_classifier for 50 users : 0 min 21 s 
+2019-08-22 13:41:05 INFO     Average prediction time for meta_binary_tree_classifier for 50 users : 0 min 4 s 
+2019-08-22 13:41:05 INFO     ***___***___***___***___***___
+2019-08-22 13:41:05 INFO     Average data for random
+2019-08-22 13:41:05 INFO     Average accuracy for random for 50 users: 0.92
+2019-08-22 13:41:05 INFO     Average micro-recall for random for 50 users: 0.92
+2019-08-22 13:41:05 INFO     Average macro-recall for random for 50 users: 0.96
+2019-08-22 13:41:05 INFO     Average micro-precision for random for 50 users: 0.92
+2019-08-22 13:41:05 INFO     Average macro-precision for random for 50 users: 0.95
+2019-08-22 13:41:05 INFO     Average micro-f1 for random for 50 users: 0.92
+2019-08-22 13:41:05 INFO     Average macro-f1 for random for 50 users: 0.95
+2019-08-22 13:41:05 INFO     Average training time for random for 50 users : 0 min 3 s 
+2019-08-22 13:41:05 INFO     Average prediction time for random for 50 users : 0 min 1 s 
+2019-08-22 13:41:05 INFO     ***___***___***___***___***___
+2019-08-22 13:41:05 INFO     Average data for huffman
+2019-08-22 13:41:05 INFO     Average accuracy for huffman for 50 users: 0.91
+2019-08-22 13:41:05 INFO     Average micro-recall for huffman for 50 users: 0.91
+2019-08-22 13:41:05 INFO     Average macro-recall for huffman for 50 users: 0.96
+2019-08-22 13:41:05 INFO     Average micro-precision for huffman for 50 users: 0.91
+2019-08-22 13:41:05 INFO     Average macro-precision for huffman for 50 users: 0.96
+2019-08-22 13:41:05 INFO     Average micro-f1 for huffman for 50 users: 0.91
+2019-08-22 13:41:05 INFO     Average macro-f1 for huffman for 50 users: 0.95
+2019-08-22 13:41:05 INFO     Average training time for huffman for 50 users : 0 min 3 s 
+2019-08-22 13:41:05 INFO     Average prediction time for huffman for 50 users : 0 min 1 s 
+2019-08-22 13:41:05 INFO     ***___***___***___***___***___
+2019-08-22 13:41:05 INFO     Average data for balanced-tree
+2019-08-22 13:41:05 INFO     Average accuracy for balanced-tree for 50 users: 0.91
+2019-08-22 13:41:05 INFO     Average micro-recall for balanced-tree for 50 users: 0.91
+2019-08-22 13:41:05 INFO     Average macro-recall for balanced-tree for 50 users: 0.96
+2019-08-22 13:41:05 INFO     Average micro-precision for balanced-tree for 50 users: 0.91
+2019-08-22 13:41:05 INFO     Average macro-precision for balanced-tree for 50 users: 0.95
+2019-08-22 13:41:05 INFO     Average micro-f1 for balanced-tree for 50 users: 0.91
+2019-08-22 13:41:05 INFO     Average macro-f1 for balanced-tree for 50 users: 0.95
+2019-08-22 13:41:05 INFO     Average training time for balanced-tree for 50 users : 0 min 3 s 
+2019-08-22 13:41:05 INFO     Average prediction time for balanced-tree for 50 users : 0 min 1 s 
+2019-08-22 13:41:05 INFO     ***___***___***___***___***___
+2019-08-22 13:41:05 INFO     Average data for meta-binary-tree-encoding
+2019-08-22 13:41:05 INFO     Average accuracy for meta-binary-tree-encoding for 50 users: 0.91
+2019-08-22 13:41:05 INFO     Average micro-recall for meta-binary-tree-encoding for 50 users: 0.91
+2019-08-22 13:41:05 INFO     Average macro-recall for meta-binary-tree-encoding for 50 users: 0.96
+2019-08-22 13:41:05 INFO     Average micro-precision for meta-binary-tree-encoding for 50 users: 0.91
+2019-08-22 13:41:05 INFO     Average macro-precision for meta-binary-tree-encoding for 50 users: 0.95
+2019-08-22 13:41:05 INFO     Average micro-f1 for meta-binary-tree-encoding for 50 users: 0.91
+2019-08-22 13:41:05 INFO     Average macro-f1 for meta-binary-tree-encoding for 50 users: 0.95
+2019-08-22 13:41:05 INFO     Average training time for meta-binary-tree-encoding for 50 users : 0 min 25 s 
+2019-08-22 13:41:05 INFO     Average prediction time for meta-binary-tree-encoding for 50 users : 0 min 1 s 
+2019-08-22 13:41:05 INFO     ***___***___***___***___***___
+2019-08-22 13:41:05 INFO     Average data for standard-classifier
+2019-08-22 13:41:05 INFO     Average accuracy for standard-classifier for 50 users: 0.94
+2019-08-22 13:41:05 INFO     Average micro-recall for standard-classifier for 50 users: 0.94
+2019-08-22 13:41:05 INFO     Average macro-recall for standard-classifier for 50 users: 0.97
+2019-08-22 13:41:05 INFO     Average micro-precision for standard-classifier for 50 users: 0.94
+2019-08-22 13:41:05 INFO     Average macro-precision for standard-classifier for 50 users: 0.97
+2019-08-22 13:41:05 INFO     Average micro-f1 for standard-classifier for 50 users: 0.94
+2019-08-22 13:41:05 INFO     Average macro-f1 for standard-classifier for 50 users: 0.97
+2019-08-22 13:41:05 INFO     Average training time for standard-classifier for 50 users : 0 min 1 s 
+2019-08-22 13:41:05 INFO     Average prediction time for standard-classifier for 50 users : 0 min 0 s 
+2019-08-22 13:41:05 INFO     accuracy = {'meta_binary_tree_classifier': [0.9594314743785872, 0.9401560437490858, 0.9446408772151887, 0.9142641449384248, 0.912226915023987], 'random': [0.9844309889914191, 0.9657085326274979, 0.9644511089567501, 0.9068966393838542, 0.9155230392085876], 'huffman': [0.9675176470780771, 0.9580818577864019, 0.9482888838555059, 0.9074923526393182, 0.9085079520302737], 'balanced-tree': [0.9675927221531522, 0.963643118417792, 0.960793580616615, 0.9315190749381411, 0.9114013475816567], 'meta-binary-tree-encoding': [0.9700492926476973, 0.957265873889243, 0.9573403181245789, 0.9260423597992942, 0.9098920192318694], 'standard-classifier': [0.9814070790054839, 0.9713992144154157, 0.9839123398451288, 0.944890207752097, 0.9409210348291124]}
+2019-08-22 13:41:05 INFO     micro-recall = {'meta_binary_tree_classifier': [0.9594314743785872, 0.9401560437490858, 0.9446408772151887, 0.9142641449384248, 0.912226915023987], 'random': [0.9844309889914191, 0.9657085326274979, 0.9644511089567501, 0.9068966393838542, 0.9155230392085876], 'huffman': [0.9675176470780771, 0.9580818577864019, 0.9482888838555059, 0.9074923526393182, 0.9085079520302737], 'balanced-tree': [0.9675927221531522, 0.963643118417792, 0.960793580616615, 0.9315190749381411, 0.9114013475816567], 'meta-binary-tree-encoding': [0.9700492926476973, 0.957265873889243, 0.9573403181245789, 0.9260423597992942, 0.9098920192318694], 'standard-classifier': [0.9814070790054839, 0.9713992144154157, 0.9839123398451288, 0.944890207752097, 0.9409210348291124]}
+2019-08-22 13:41:05 INFO     macro-recall = {'meta_binary_tree_classifier': [0.964044733044733, 0.9489366525287577, 0.9571059673085536, 0.9433395603665341, 0.9396882266220761], 'random': [0.9876414141414142, 0.9735131771737036, 0.9777495679288781, 0.956246865540138, 0.9614651173402405], 'huffman': [0.9722590187590189, 0.9633721161879057, 0.9749315465824087, 0.9532933269958207, 0.9601633213631189], 'balanced-tree': [0.9713549783549784, 0.9697326007326007, 0.9769880463087359, 0.9635513304995798, 0.9557199268103049], 'meta-binary-tree-encoding': [0.9545764790764792, 0.9649036533641796, 0.9718622709027883, 0.9643520975381439, 0.9587421308946892], 'standard-classifier': [0.9860050505050506, 0.976705240665767, 0.9865044119354464, 0.9713249769295503, 0.9716174379807384]}
+2019-08-22 13:41:05 INFO     micro-precision = {'meta_binary_tree_classifier': [0.9594314743785872, 0.9401560437490858, 0.9446408772151887, 0.9142641449384248, 0.912226915023987], 'random': [0.9844309889914191, 0.9657085326274979, 0.9644511089567501, 0.9068966393838542, 0.9155230392085876], 'huffman': [0.9675176470780771, 0.9580818577864019, 0.9482888838555059, 0.9074923526393182, 0.9085079520302737], 'balanced-tree': [0.9675927221531522, 0.963643118417792, 0.960793580616615, 0.9315190749381411, 0.9114013475816567], 'meta-binary-tree-encoding': [0.9700492926476973, 0.957265873889243, 0.9573403181245789, 0.9260423597992942, 0.9098920192318694], 'standard-classifier': [0.9814070790054839, 0.9713992144154157, 0.9839123398451288, 0.944890207752097, 0.9409210348291124]}
+2019-08-22 13:41:05 INFO     macro-precision = {'meta_binary_tree_classifier': [0.9701138306138306, 0.9542956685817492, 0.963753078817734, 0.9537631633360935, 0.9521335456182213], 'random': [0.9868636363636364, 0.9737941999520947, 0.9745252006933042, 0.9525750307452874, 0.9514041568743921], 'huffman': [0.9759320124320127, 0.9662013892540209, 0.9746113380608954, 0.9524202616483961, 0.9577951924407513], 'balanced-tree': [0.9697287157287157, 0.9703531366294526, 0.9731768847405873, 0.9626347641608476, 0.9520990997771109], 'meta-binary-tree-encoding': [0.9605555555555554, 0.9699944514549779, 0.972923197492163, 0.9577498185294239, 0.9521135007111287], 'standard-classifier': [0.9865, 0.9793991083735666, 0.9886823907916573, 0.9710029364502522, 0.9697714074907353]}
+2019-08-22 13:41:05 INFO     micro-f1 = {'meta_binary_tree_classifier': [0.9594314743785872, 0.9401560437490858, 0.9446408772151887, 0.9142641449384248, 0.912226915023987], 'random': [0.9844309889914191, 0.9657085326274979, 0.9644511089567501, 0.9068966393838542, 0.9155230392085876], 'huffman': [0.9675176470780771, 0.9580818577864019, 0.9482888838555059, 0.9074923526393182, 0.9085079520302737], 'balanced-tree': [0.9675927221531522, 0.963643118417792, 0.960793580616615, 0.9315190749381411, 0.9114013475816567], 'meta-binary-tree-encoding': [0.9700492926476973, 0.957265873889243, 0.9573403181245789, 0.9260423597992942, 0.9098920192318694], 'standard-classifier': [0.9814070790054839, 0.9713992144154157, 0.9839123398451288, 0.944890207752097, 0.9409210348291124]}
+2019-08-22 13:41:05 INFO     macro-f1 = {'meta_binary_tree_classifier': [0.9634187376664158, 0.9465685010611649, 0.9553518606850331, 0.9417192754834472, 0.9372239639870106], 'random': [0.9862153422772618, 0.9716747545884775, 0.9730816356070214, 0.9435665103834943, 0.94856306254958], 'huffman': [0.9717697868580222, 0.9615124558143566, 0.9686940866829483, 0.9437459418323166, 0.9494431613324249], 'balanced-tree': [0.968988053971026, 0.9674697857071521, 0.971544247188449, 0.9576439902428537, 0.9463230814218561], 'meta-binary-tree-encoding': [0.9552934145318046, 0.9628890628118271, 0.9679666683663696, 0.9538582130516948, 0.9457547620818794], 'standard-classifier': [0.9849722345078383, 0.9761232727540777, 0.9867819386288479, 0.9693268068420817, 0.9687342810009861]}
+2019-08-22 13:41:05 INFO     training_time = {'meta_binary_tree_classifier': [4.901650905609131, 9.24018235206604, 13.017167472839356, 17.27413558959961, 21.611189126968384], 'random': [1.7832886695861816, 2.582796239852905, 2.3850143909454347, 3.6720234870910646, 3.684290313720703], 'huffman': [1.9392139911651611, 2.4079358100891115, 2.570492649078369, 3.9429845333099367, 3.7413963794708254], 'balanced-tree': [1.9168570518493653, 2.3398770809173586, 2.451589250564575, 3.7995437145233155, 3.8111350536346436], 'meta-binary-tree-encoding': [5.439039278030395, 10.865674304962159, 14.354171752929688, 20.49613528251648, 25.492230558395384], 'standard-classifier': [0.5104874610900879, 0.8743897914886475, 0.8344859123229981, 1.4916130542755126, 1.7312337398529052]}
+2019-08-22 13:41:05 INFO     prediction_time = {'meta_binary_tree_classifier': [1.5404375553131104, 1.8151293754577638, 2.5551610469818113, 4.08692889213562, 4.644209384918213], 'random': [0.18675727844238282, 1.1053934574127198, 1.329889678955078, 1.61695237159729, 1.5411753177642822], 'huffman': [0.2064211845397949, 1.3855753898620606, 1.4680533409118652, 1.6181369781494142, 1.562154197692871], 'balanced-tree': [0.1695796489715576, 1.0065692901611327, 1.3505802631378174, 1.5955602169036864, 1.536967134475708], 'meta-binary-tree-encoding': [0.16245875358581544, 1.0432960510253906, 1.2656785488128661, 1.602117395401001, 1.6114881992340089], 'standard-classifier': [0.30824985504150393, 0.32784323692321776, 0.3529480457305908, 0.47598772048950194, 0.5998287677764893]}
